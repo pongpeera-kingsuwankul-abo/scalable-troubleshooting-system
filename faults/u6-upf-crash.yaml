@@ -1,0 +1,17 @@
+# U6 — UPF crash (pod-kill)
+# Kills the UPF pod. All user-plane traffic stops instantly.
+# Kubernetes restarts it, so recovery is automatic.
+apiVersion: chaos-mesh.org/v1alpha1
+kind: PodChaos
+metadata:
+  name: u6-upf-crash
+  namespace: open5gs
+spec:
+  action: pod-kill
+  mode: all
+  selector:
+    namespaces:
+      - open5gs
+    labelSelectors:
+      app.kubernetes.io/name: upf
+  gracePeriod: 0

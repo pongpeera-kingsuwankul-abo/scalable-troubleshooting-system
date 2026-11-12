@@ -1,0 +1,20 @@
+# U8 — UPF CPU stress
+# Loads 2 workers at 90% on the UPF. Packet forwarding slows;
+# users feel lag and lower speed.
+apiVersion: chaos-mesh.org/v1alpha1
+kind: StressChaos
+metadata:
+  name: u8-upf-cpu-stress
+  namespace: open5gs
+spec:
+  mode: all
+  selector:
+    namespaces:
+      - open5gs
+    labelSelectors:
+      app.kubernetes.io/name: upf
+  stressors:
+    cpu:
+      workers: 2
+      load: 90
+  duration: "120s"

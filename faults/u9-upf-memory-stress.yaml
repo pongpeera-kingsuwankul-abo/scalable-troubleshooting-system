@@ -1,0 +1,21 @@
+# U9 — UPF memory stress / leak
+# Fills UPF memory. It slows, and at the limit the OOM killer
+# terminates it, which then looks like a crash.
+# Start with 128Mi; raise if UPF has more headroom.
+apiVersion: chaos-mesh.org/v1alpha1
+kind: StressChaos
+metadata:
+  name: u9-upf-memory-stress
+  namespace: open5gs
+spec:
+  mode: all
+  selector:
+    namespaces:
+      - open5gs
+    labelSelectors:
+      app.kubernetes.io/name: upf
+  stressors:
+    memory:
+      workers: 1
+      size: "128Mi"
+  duration: "120s"

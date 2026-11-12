@@ -1,0 +1,32 @@
+# Lean Prometheus (chart: prometheus-community/prometheus) for a single-node k3s PoC.
+# Only Prometheus server + kube-state-metrics; cAdvisor scraping is built into the chart.
+alertmanager: {enabled: false}
+prometheus-pushgateway: {enabled: false}
+prometheus-node-exporter: {enabled: false}
+kube-state-metrics: {enabled: true}
+
+server:
+  retention: 3d
+  persistentVolume: {size: 5Gi}
+  global:
+    scrape_interval: 5s      # cAdvisor / kube-state-metrics (cAdvisor itself refreshes ~10 s)
+    scrape_timeout: 4s
+    evaluation_interval: 30s
+
+# Open5GS NFs at 1 Hz
+extraScrapeConfigs: |
+  - job_name: open5gs
+    scrape_interval: 1s
+    scrape_timeout: 1s
+    kubernetes_sd_configs:
+      - role: pod
+        namespaces: {names: [open5gs]}
+    relabel_configs:
+      - source_labels: [__meta_kubernetes_pod_label_app_kubernetes_io_name]
+        regex: (amf|smf|upf)    # only the NFs that serve metrics
+        action: keep
+      - source_labels: [__meta_kubernetes_pod_label_app_kubernetes_io_name]
+        target_label: nf
+      - source_labels: [__meta_kubernetes_pod_ip]
+        target_label: __address__
+        replacement: $1:9090

@@ -1,0 +1,17 @@
+# U7 — UPF freeze (hang, not crash)
+# Pauses the UPF container. Traffic stops like a crash, but nothing
+# restarts it and it still reports 'Running'. Harder to detect.
+apiVersion: chaos-mesh.org/v1alpha1
+kind: PodChaos
+metadata:
+  name: u7-upf-freeze
+  namespace: open5gs
+spec:
+  action: pod-failure
+  mode: all
+  selector:
+    namespaces:
+      - open5gs
+    labelSelectors:
+      app.kubernetes.io/name: upf
+  duration: "120s"

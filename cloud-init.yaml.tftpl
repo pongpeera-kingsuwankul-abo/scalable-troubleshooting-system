@@ -1,0 +1,19 @@
+#cloud-config
+# Runs once on first boot: patches, tmux, kernel modules, and the setup script (not run automatically).
+package_update: true
+package_upgrade: true
+packages:
+  - tmux
+write_files:
+  - path: /etc/modules-load.d/poc.conf
+    content: |
+      sctp
+      sch_netem
+      ip_set
+      xt_set
+  - path: /usr/local/bin/poc-setup.sh
+    permissions: "0755"
+    encoding: b64
+    content: ${setup_b64}
+runcmd:
+  - for m in sctp sch_netem ip_set xt_set; do modprobe $m || true; done
