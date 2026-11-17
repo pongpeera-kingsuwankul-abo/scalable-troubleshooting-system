@@ -1,0 +1,17 @@
+curl-upf 0
+n6-server-56f99bb598-rzkrz 2
+open5gs-amf-66b8f768cc-4pxbw 1
+open5gs-ausf-79899f74b9-jsxcn 2
+open5gs-bsf-d54b7668c-5282z 2
+open5gs-mongodb-75776fc7cd-twbfv 2
+open5gs-nrf-797bd9bfcf-s9gnm 2
+open5gs-nssf-74bffb89fc-qwfkc 2
+open5gs-pcf-55c4cfb94c-vsnkk 4
+open5gs-populate-7bb86ffb4b-bfl96 2
+open5gs-scp-5b74569cbb-h9qbv 2
+open5gs-smf-7f75944569-s28h4 0
+open5gs-udm-7c76dc8667-6x7rn 2
+open5gs-udr-64bc5799fb-7d9mj 4
+open5gs-upf-5667dc78f8-qrqdh 0
+ueransim-gnb-856b5b5497-ljc9p 0
+ueransim-gnb-ues-5b84cf7db9-cmmf5 0

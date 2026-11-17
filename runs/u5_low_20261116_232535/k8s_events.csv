@@ -1,0 +1,26 @@
+first_seen,last_seen,namespace,type,reason,object,count,message
+2026-11-16T12:08:50Z,2026-11-16T23:29:03Z,open5gs,Warning,FailedGetScale,HorizontalPodAutoscaler/ueransim-gnb,2721,"statefulsets.apps ""ueransim-gnb"" not found"
+2026-11-16T12:09:19Z,2026-11-16T23:29:04Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-ausf,2718,failed to get cpu utilization: missing request for cpu in container open5gs-ausf of Pod open5gs-ausf-79899f74b9-jsxcn
+2026-11-16T12:09:19Z,2026-11-16T23:29:04Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-bsf,2718,failed to get cpu utilization: missing request for cpu in container open5gs-bsf of Pod open5gs-bsf-d54b7668c-5282z
+2026-11-16T12:09:19Z,2026-11-16T23:29:04Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-nrf,2718,failed to get cpu utilization: missing request for cpu in container open5gs-nrf of Pod open5gs-nrf-797bd9bfcf-s9gnm
+2026-11-16T12:09:19Z,2026-11-16T23:29:04Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-nssf,2718,failed to get cpu utilization: missing request for cpu in container open5gs-nssf of Pod open5gs-nssf-74bffb89fc-qwfkc
+2026-11-16T12:09:19Z,2026-11-16T23:29:04Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-scp,2718,failed to get cpu utilization: missing request for cpu in container open5gs-scp of Pod open5gs-scp-5b74569cbb-h9qbv
+2026-11-16T12:09:19Z,2026-11-16T23:29:04Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-udm,2718,failed to get cpu utilization: missing request for cpu in container open5gs-udm of Pod open5gs-udm-7c76dc8667-6x7rn
+2026-11-16T12:09:34Z,2026-11-16T23:29:04Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-pcf,2717,failed to get cpu utilization: missing request for cpu in container open5gs-pcf of Pod open5gs-pcf-55c4cfb94c-vsnkk
+2026-11-16T12:09:49Z,2026-11-16T23:29:04Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-udr,2716,failed to get cpu utilization: missing request for cpu in container open5gs-udr of Pod open5gs-udr-64bc5799fb-7d9mj
+2026-11-16T23:27:40Z,2026-11-16T23:27:40Z,open5gs,Normal,Applied,NetworkChaos/u5-n6-loss-delay,1,Successfully apply chaos for open5gs/n6-server-56f99bb598-rzkrz
+2026-11-16T23:27:40Z,2026-11-16T23:27:40Z,open5gs,Normal,FinalizerInited,NetworkChaos/u5-n6-loss-delay,1,Finalizer has been inited
+2026-11-16T23:27:40Z,2026-11-16T23:27:40Z,open5gs,Normal,Started,NetworkChaos/u5-n6-loss-delay,1,Experiment has started
+2026-11-16T23:27:40Z,2026-11-16T23:27:40Z,open5gs,Normal,Updated,NetworkChaos/u5-n6-loss-delay,1,Successfully update desiredPhase of resource
+2026-11-16T23:27:40Z,2026-11-16T23:27:40Z,open5gs,Normal,Updated,NetworkChaos/u5-n6-loss-delay,1,Successfully update finalizer of resource
+2026-11-16T23:27:40Z,2026-11-16T23:27:40Z,open5gs,Normal,Updated,NetworkChaos/u5-n6-loss-delay,1,Successfully update records of resource
+2026-11-16T23:27:40Z,2026-11-16T23:27:40Z,open5gs,Normal,Updated,NetworkChaos/u5-n6-loss-delay,1,Successfully update records of resource
+2026-11-16T23:27:40Z,2026-11-16T23:27:40Z,open5gs,Normal,Updated,PodNetworkChaos/n6-server-56f99bb598-rzkrz,1,Successfully update ObservedGeneration and FailedMessage of resource
+2026-11-16T23:29:40Z,2026-11-16T23:29:40Z,open5gs,Normal,FinalizerInited,NetworkChaos/u5-n6-loss-delay,1,Finalizer has been removed
+2026-11-16T23:29:40Z,2026-11-16T23:29:40Z,open5gs,Normal,Recovered,NetworkChaos/u5-n6-loss-delay,1,Successfully recover chaos for open5gs/n6-server-56f99bb598-rzkrz
+2026-11-16T23:29:40Z,2026-11-16T23:29:40Z,open5gs,Normal,TimeUp,NetworkChaos/u5-n6-loss-delay,1,Time up according to the duration
+2026-11-16T23:29:40Z,2026-11-16T23:29:40Z,open5gs,Normal,Updated,NetworkChaos/u5-n6-loss-delay,1,Successfully update desiredPhase of resource
+2026-11-16T23:29:40Z,2026-11-16T23:29:40Z,open5gs,Normal,Updated,NetworkChaos/u5-n6-loss-delay,1,Successfully update finalizer of resource
+2026-11-16T23:29:40Z,2026-11-16T23:29:40Z,open5gs,Normal,Updated,NetworkChaos/u5-n6-loss-delay,1,Successfully update records of resource
+2026-11-16T23:29:40Z,2026-11-16T23:29:40Z,open5gs,Normal,Updated,NetworkChaos/u5-n6-loss-delay,1,Successfully update records of resource
+2026-11-16T23:29:40Z,2026-11-16T23:29:40Z,open5gs,Normal,Updated,PodNetworkChaos/n6-server-56f99bb598-rzkrz,1,Successfully update ObservedGeneration and FailedMessage of resource

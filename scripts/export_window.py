@@ -62,6 +62,8 @@ def main():
     a.add_argument("--out", required=True)
     a.add_argument("--ping", action="append", default=[],
                    help="ping log made with 'ping -D -O' (repeat for each UE); adds ping_rtt_ms.<name> and ping_ok.<name>")
+    a.add_argument("--ping-interval", type=float, default=1.0,
+                   help="seconds between pings in the log (the -i value used; default 1)")
     o = a.parse_args()
     s, e = ts(o.start), ts(o.end)
     on = ts(o.onset) if o.onset else None
@@ -84,14 +86,22 @@ def main():
     for path in o.ping:
         name = re.sub(r"^ping_|\.log$", "", path.split("/")[-1])
         rtt, ok = {}, {}
+        # Every ping is placed at the second it was SENT, so a lost ping and the next
+        # reply can no longer land in the same second and hide the loss.
         for line in open(path, errors="replace"):
             mt = re.match(r"\[(\d+(?:\.\d+)?)\]", line)
             if not mt: continue
-            t = int(float(mt.group(1)))
-            if not (s <= t <= e): continue
+            tl = float(mt.group(1))
             mr = re.search(r"time=([\d.]+)", line)
-            if mr: rtt[t] = mr.group(1); ok[t] = 1
-            elif "no answer" in line or "Unreachable" in line: ok.setdefault(t, 0)
+            if mr:      # reply line is stamped on arrival: sent = arrival - RTT
+                t = int(tl - float(mr.group(1)) / 1000.0)
+                if s <= t <= e: rtt[t] = mr.group(1); ok[t] = 1
+            elif "no answer" in line:   # printed when the NEXT ping is sent, one interval later
+                t = int(tl - o.ping_interval)
+                if s <= t <= e: ok.setdefault(t, 0)
+            elif "Unreachable" in line:
+                t = int(tl)
+                if s <= t <= e: ok.setdefault(t, 0)
         for c, d in ((f"ping_rtt_ms.{name}", rtt), (f"ping_ok.{name}", ok)):
             cols.append(c); data[c] = {t: v for t, v in d.items()}
         print(f"ping {name}: {sum(ok.values())} replies, {list(ok.values()).count(0)} lost")

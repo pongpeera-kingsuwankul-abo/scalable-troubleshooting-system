@@ -1,0 +1,10 @@
+fault_id=U8
+severity=low
+fault_file=u8-upf-cpu-stress.yaml
+start=2026-11-16T23:31:55Z
+onset=2026-11-16T23:34:00Z
+recovered=2026-11-16T23:36:00Z
+end=2026-11-16T23:38:00Z
+injected=True
+ue_pod=ueransim-gnb-ues-5b84cf7db9-cmmf5
+n6_ip=10.42.0.202

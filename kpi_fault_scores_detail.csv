@@ -1,0 +1,586 @@
+fault,kpi,group,nf,score,healthy_mean,fault_mean,recovered_mean,change_of_mean,abnormal_time_pct,no_data_pct,note
+U5,jitter_ms.ue1,UE probe (ping),ue,5,0.331748,17.0691,6.04252,x51,100.0,0.0,outside normal range 100% of the fault
+U5,ping_ok.ue1,UE probe (ping),ue,3,1,0.641667,1,-36%,35.5,0.8,outside normal range 36% of the fault
+U5,ping_rtt_ms.ue1,UE probe (ping),ue,5,1.03765,200.961,1.09185,x194,98.4,36.4,outside normal range 98% of the fault
+U5,fivegs_ep_n3_gtp_indatapktn3upf.upf,Open5GS counters and gauges,upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_ep_n3_gtp_outdatapktn3upf.upf,Open5GS counters and gauges,upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_upffunction_sm_n4sessionestabreq.upf,Open5GS counters and gauges,upf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,fivegs_upffunction_sm_n4sessionreport.upf,Open5GS counters and gauges,upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_upffunction_sm_n4sessionreportsucc.upf,Open5GS counters and gauges,upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_upffunction_upf_qosflows.upf.dnn=internet,Open5GS counters and gauges,upf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,fivegs_upffunction_upf_sessionnbr.upf,Open5GS counters and gauges,upf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,amf_session.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,bearers_active.smf,Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,fivegs_amffunction_amf_authreject.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_amffunction_amf_authreq.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,fivegs_amffunction_mm_confupdate.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,fivegs_amffunction_mm_confupdatesucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_amffunction_mm_paging5greq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_amffunction_mm_paging5gsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_amffunction_rm_regemergreq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_amffunction_rm_regemergsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_amffunction_rm_reginitfail.amf.cause=95,Open5GS counters and gauges,amf,1,4,4,4,+0%,0.0,0.0,within normal range
+U5,fivegs_amffunction_rm_reginitreq.amf,Open5GS counters and gauges,amf,1,6,6,6,+0%,0.0,0.0,within normal range
+U5,fivegs_amffunction_rm_reginitsucc.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,"fivegs_amffunction_rm_registeredsubnbr.amf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,fivegs_amffunction_rm_regmobreq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_amffunction_rm_regmobsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_amffunction_rm_regperiodreq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_amffunction_rm_regperiodsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_smffunction_sm_n4sessionestabreq.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_smffunction_sm_n4sessionreport.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_smffunction_sm_n4sessionreportsucc.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,fivegs_smffunction_sm_pdusessioncreationreq.smf,Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,"fivegs_smffunction_sm_pdusessioncreationreq.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,"fivegs_smffunction_sm_pdusessioncreationsucc.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,"fivegs_smffunction_sm_qos_flow_nbr.smf.fiveqi=9,plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,"fivegs_smffunction_sm_sessionnbr.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,gn_rx_createpdpcontextreq.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,gn_rx_deletepdpcontextreq.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,gn_rx_parse_failed.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,gnb.amf,Open5GS counters and gauges,amf,1,1,1,1,+0%,0.0,0.0,within normal range
+U5,gtp1_pdpctxs_active.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,gtp2_sessions_active.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,gtp_new_node_failed.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,gtp_peers_active.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,ran_ue.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,s5c_rx_createsession.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,s5c_rx_deletesession.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,s5c_rx_parse_failed.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,ues_active.smf,Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,process_cpu_seconds_total.upf,Process stats (from the NF),upf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,process_max_fds.upf,Process stats (from the NF),upf,1,1.04858e+06,1.04858e+06,1.04858e+06,+0%,0.0,0.0,within normal range
+U5,process_open_fds.upf,Process stats (from the NF),upf,1,11,11,11,+0%,0.0,0.0,within normal range
+U5,process_resident_memory_bytes.upf,Process stats (from the NF),upf,1,2.75513e+07,2.75693e+07,2.75896e+07,+0%,0.0,0.0,within normal range
+U5,process_virtual_memory_bytes.upf,Process stats (from the NF),upf,1,2.87007e+08,2.87007e+08,2.87007e+08,+0%,0.0,0.0,within normal range
+U5,process_virtual_memory_max_bytes.upf,Process stats (from the NF),upf,1,-1,-1,-1,+0%,0.0,0.0,within normal range
+U5,restarted.upf,Process stats (from the NF),upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,process_cpu_seconds_total.amf,Process stats (from the NF),amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,process_cpu_seconds_total.smf,Process stats (from the NF),smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U5,process_max_fds.amf,Process stats (from the NF),amf,1,1.04858e+06,1.04858e+06,1.04858e+06,+0%,0.0,0.0,within normal range
+U5,process_max_fds.smf,Process stats (from the NF),smf,1,1.04858e+06,1.04858e+06,1.04858e+06,+0%,0.0,0.0,within normal range
+U5,process_open_fds.amf,Process stats (from the NF),amf,1,35,35,35,+0%,0.0,0.0,within normal range
+U5,process_open_fds.smf,Process stats (from the NF),smf,1,18,18,18,+0%,0.0,0.0,within normal range
+U5,process_resident_memory_bytes.amf,Process stats (from the NF),amf,1,6.18086e+07,6.18086e+07,6.18086e+07,+0%,0.0,0.0,within normal range
+U5,process_resident_memory_bytes.smf,Process stats (from the NF),smf,1,4.2795e+07,4.2795e+07,4.2795e+07,+0%,0.0,0.0,within normal range
+U5,process_virtual_memory_bytes.amf,Process stats (from the NF),amf,1,1.92102e+09,1.92102e+09,1.92102e+09,+0%,0.0,0.0,within normal range
+U5,process_virtual_memory_bytes.smf,Process stats (from the NF),smf,1,4.65211e+08,4.65211e+08,4.65211e+08,+0%,0.0,0.0,within normal range
+U5,process_virtual_memory_max_bytes.amf,Process stats (from the NF),amf,1,-1,-1,-1,+0%,0.0,0.0,within normal range
+U5,process_virtual_memory_max_bytes.smf,Process stats (from the NF),smf,1,-1,-1,-1,+0%,0.0,0.0,within normal range
+U5,restarted.amf,Process stats (from the NF),amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,restarted.smf,Process stats (from the NF),smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,scrape_samples_post_metric_relabeling.upf,Scrape health,upf,1,14,14,14,+0%,0.0,0.0,within normal range
+U5,scrape_samples_scraped.upf,Scrape health,upf,1,14,14,14,+0%,0.0,0.0,within normal range
+U5,up.upf,Scrape health,upf,1,1,1,1,+0%,0.0,0.0,within normal range
+U5,scrape_duration_seconds.upf,Scrape health,upf,1,0.00141055,0.0014484,0.00147125,+3%,0.8,0.0,within normal range
+U5,scrape_series_added.upf,Scrape health,upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,scrape_duration_seconds.amf,Scrape health,amf,1,0.00150116,0.0015448,0.00152335,+3%,0.0,0.0,within normal range
+U5,scrape_duration_seconds.smf,Scrape health,smf,1,0.00151912,0.0015854,0.00151878,+4%,0.0,0.0,within normal range
+U5,scrape_samples_post_metric_relabeling.amf,Scrape health,amf,1,26,26,26,+0%,0.0,0.0,within normal range
+U5,scrape_samples_post_metric_relabeling.smf,Scrape health,smf,1,27,27,27,+0%,0.0,0.0,within normal range
+U5,scrape_samples_scraped.amf,Scrape health,amf,1,26,26,26,+0%,0.0,0.0,within normal range
+U5,scrape_samples_scraped.smf,Scrape health,smf,1,27,27,27,+0%,0.0,0.0,within normal range
+U5,scrape_series_added.amf,Scrape health,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,scrape_series_added.smf,Scrape health,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U5,up.amf,Scrape health,amf,1,1,1,1,+0%,0.0,0.0,within normal range
+U5,up.smf,Scrape health,smf,1,1,1,1,+0%,0.0,0.0,within normal range
+U5,cpu.upf,Container CPU,upf,1,0.000872062,0.000954084,0.000926919,+9%,0.0,12.4,within normal range
+U5,cpu.amf,Container CPU,amf,1,0.000751979,0.000771846,0.00078099,+3%,0.0,14.0,within normal range
+U5,cpu.ausf,Container CPU,ausf,1,0.000100508,0.000113479,0.000106836,+13%,0.0,5.0,within normal range
+U5,cpu.bsf,Container CPU,bsf,1,0.000109889,0.000108059,0.000108091,-2%,0.0,9.9,within normal range
+U5,cpu.mongodb,Container CPU,mongodb,1,0.00433739,0.00433032,0.00448256,-0%,0.0,8.3,within normal range
+U5,cpu.n6-server,Container CPU,n6-server,1,0,0,0,unchanged,0.0,45.5,within normal range
+U5,cpu.nrf,Container CPU,nrf,1,0.000280476,0.000278329,0.00031058,-1%,0.0,9.1,within normal range
+U5,cpu.nssf,Container CPU,nssf,1,0.000100713,0.000114282,0.00010383,+13%,0.0,0.8,within normal range
+U5,cpu.pcf,Container CPU,pcf,1,0.000105322,0.000100459,0.000104877,-5%,0.0,5.0,within normal range
+U5,cpu.populate,Container CPU,populate,1,4.18684e-05,3.89075e-05,4.8234e-05,-7%,0.0,9.9,within normal range
+U5,cpu.scp,Container CPU,scp,1,0.000502227,0.000515235,0.000500268,+3%,0.0,5.8,within normal range
+U5,cpu.smf,Container CPU,smf,1,0.000733439,0.000794503,0.000765301,+8%,0.0,7.4,within normal range
+U5,cpu.udm,Container CPU,udm,1,0.000106549,0.000106756,0.000103466,+0%,0.0,21.5,within normal range
+U5,cpu.udr,Container CPU,udr,1,0.00010172,0.00010151,0.000107017,-0%,0.0,13.2,within normal range
+U5,cpu.ueransim-gnb,Container CPU,ueransim-gnb,1,0.00143686,0.0015503,0.00140879,+8%,0.0,9.1,within normal range
+U5,cpu.ueransim-gnb-ues,Container CPU,ueransim-gnb-ues,1,0.00323397,0.00288689,0.00281354,-11%,0.0,1.7,within normal range
+U5,mem.upf,Container memory,upf,1,1.91593e+07,1.9193e+07,1.91972e+07,+0%,0.0,0.0,within normal range
+U5,mem.amf,Container memory,amf,1,4.97809e+07,4.98101e+07,4.98386e+07,+0%,0.0,0.0,within normal range
+U5,mem.ausf,Container memory,ausf,1,6.32065e+06,6.34453e+06,6.36826e+06,+0%,0.0,0.0,within normal range
+U5,mem.bsf,Container memory,bsf,1,6.27202e+06,6.29975e+06,6.32136e+06,+0%,0.0,0.0,within normal range
+U5,mem.mongodb,Container memory,mongodb,1,1.71331e+08,1.71342e+08,1.71315e+08,+0%,0.0,0.0,within normal range
+U5,mem.n6-server,Container memory,n6-server,1,221184,221184,221184,+0%,0.0,0.0,within normal range
+U5,mem.nrf,Container memory,nrf,1,1.00854e+07,1.02423e+07,1.05864e+07,+2%,0.0,0.0,within normal range
+U5,mem.nssf,Container memory,nssf,1,6.15819e+06,6.18313e+06,6.20612e+06,+0%,0.0,0.0,within normal range
+U5,mem.pcf,Container memory,pcf,1,7.40658e+06,7.45025e+06,7.45564e+06,+1%,0.0,0.0,within normal range
+U5,mem.populate,Container memory,populate,1,348160,348160,348160,+0%,0.0,0.0,within normal range
+U5,mem.scp,Container memory,scp,1,1.24868e+07,1.26916e+07,1.28957e+07,+2%,0.0,0.0,within normal range
+U5,mem.smf,Container memory,smf,1,2.8883e+07,2.89238e+07,2.89712e+07,+0%,0.0,0.0,within normal range
+U5,mem.udm,Container memory,udm,1,6.484e+06,6.52689e+06,6.53322e+06,+1%,0.0,0.0,within normal range
+U5,mem.udr,Container memory,udr,1,6.91274e+06,6.93967e+06,6.96272e+06,+0%,0.0,0.0,within normal range
+U5,mem.ueransim-gnb,Container memory,ueransim-gnb,1,3.7888e+06,3.79076e+06,3.7929e+06,+0%,0.0,0.0,within normal range
+U5,mem.ueransim-gnb-ues,Container memory,ueransim-gnb-ues,1,3.72487e+06,3.74716e+06,3.75631e+06,+1%,0.0,0.0,within normal range
+U6,jitter_ms.ue1,UE probe (ping),ue,5,0.242894,0.109633,,-55%,91.8,93.4,stopped reporting for 92% of the fault
+U6,ping_ok.ue1,UE probe (ping),ue,5,1,0.00840336,0,/119,98.4,2.5,outside normal range 98% of the fault
+U6,ping_rtt_ms.ue1,UE probe (ping),ue,5,1.10066,0.95,,-14%,98.4,99.2,stopped reporting for 98% of the fault
+U6,fivegs_ep_n3_gtp_indatapktn3upf.upf,Open5GS counters and gauges,upf,2,0,0,0,unchanged,5.7,5.7,stopped reporting for 6% of the fault
+U6,fivegs_ep_n3_gtp_outdatapktn3upf.upf,Open5GS counters and gauges,upf,2,0,0,0,unchanged,5.7,5.7,stopped reporting for 6% of the fault
+U6,fivegs_upffunction_sm_n4sessionestabreq.upf,Open5GS counters and gauges,upf,2,2,2,2,+0%,5.7,5.7,stopped reporting for 6% of the fault
+U6,fivegs_upffunction_sm_n4sessionreport.upf,Open5GS counters and gauges,upf,2,0,0,0,unchanged,5.7,5.7,stopped reporting for 6% of the fault
+U6,fivegs_upffunction_sm_n4sessionreportsucc.upf,Open5GS counters and gauges,upf,2,0,0,0,unchanged,5.7,5.7,stopped reporting for 6% of the fault
+U6,fivegs_upffunction_upf_qosflows.upf.dnn=internet,Open5GS counters and gauges,upf,2,2,2,2,+0%,5.7,5.7,stopped reporting for 6% of the fault
+U6,fivegs_upffunction_upf_sessionnbr.upf,Open5GS counters and gauges,upf,2,2,2,2,+0%,5.7,5.7,stopped reporting for 6% of the fault
+U6,amf_session.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U6,bearers_active.smf,Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U6,fivegs_amffunction_amf_authreject.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,fivegs_amffunction_amf_authreq.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U6,fivegs_amffunction_mm_confupdate.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U6,fivegs_amffunction_mm_confupdatesucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,fivegs_amffunction_mm_paging5greq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,fivegs_amffunction_mm_paging5gsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,fivegs_amffunction_rm_regemergreq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,fivegs_amffunction_rm_regemergsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,fivegs_amffunction_rm_reginitfail.amf.cause=95,Open5GS counters and gauges,amf,1,4,4,4,+0%,0.0,0.0,within normal range
+U6,fivegs_amffunction_rm_reginitreq.amf,Open5GS counters and gauges,amf,1,6,6,6,+0%,0.0,0.0,within normal range
+U6,fivegs_amffunction_rm_reginitsucc.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U6,"fivegs_amffunction_rm_registeredsubnbr.amf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U6,fivegs_amffunction_rm_regmobreq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,fivegs_amffunction_rm_regmobsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,fivegs_amffunction_rm_regperiodreq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,fivegs_amffunction_rm_regperiodsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,fivegs_smffunction_sm_n4sessionestabreq.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,fivegs_smffunction_sm_n4sessionreport.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,fivegs_smffunction_sm_n4sessionreportsucc.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,fivegs_smffunction_sm_pdusessioncreationreq.smf,Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U6,"fivegs_smffunction_sm_pdusessioncreationreq.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U6,"fivegs_smffunction_sm_pdusessioncreationsucc.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U6,"fivegs_smffunction_sm_qos_flow_nbr.smf.fiveqi=9,plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U6,"fivegs_smffunction_sm_sessionnbr.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U6,gn_rx_createpdpcontextreq.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,gn_rx_deletepdpcontextreq.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,gn_rx_parse_failed.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,gnb.amf,Open5GS counters and gauges,amf,1,1,1,1,+0%,0.0,0.0,within normal range
+U6,gtp1_pdpctxs_active.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,gtp2_sessions_active.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,gtp_new_node_failed.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,gtp_peers_active.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,ran_ue.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U6,s5c_rx_createsession.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,s5c_rx_deletesession.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,s5c_rx_parse_failed.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,ues_active.smf,Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U6,process_cpu_seconds_total.upf,Process stats (from the NF),upf,2,0,0,0,unchanged,5.7,5.7,stopped reporting for 6% of the fault
+U6,process_max_fds.upf,Process stats (from the NF),upf,2,1.04858e+06,1.04858e+06,1.04858e+06,+0%,5.7,5.7,stopped reporting for 6% of the fault
+U6,process_open_fds.upf,Process stats (from the NF),upf,2,11,11,11,+0%,5.7,5.7,stopped reporting for 6% of the fault
+U6,process_resident_memory_bytes.upf,Process stats (from the NF),upf,2,2.67263e+07,2.70165e+07,2.70213e+07,+1%,5.7,5.7,stopped reporting for 6% of the fault
+U6,process_virtual_memory_bytes.upf,Process stats (from the NF),upf,2,2.87007e+08,2.87007e+08,2.87007e+08,+0%,5.7,5.7,stopped reporting for 6% of the fault
+U6,process_virtual_memory_max_bytes.upf,Process stats (from the NF),upf,2,-1,-1,-1,+0%,5.7,5.7,stopped reporting for 6% of the fault
+U6,restarted.upf,Process stats (from the NF),upf,5,0,0.982609,1,0 -> 0.9826,98.4,5.7,outside normal range 98% of the fault
+U6,process_cpu_seconds_total.amf,Process stats (from the NF),amf,1,6,6,6,+0%,0.0,0.0,within normal range
+U6,process_cpu_seconds_total.smf,Process stats (from the NF),smf,1,6,6,6,+0%,0.0,0.0,within normal range
+U6,process_max_fds.amf,Process stats (from the NF),amf,1,1.04858e+06,1.04858e+06,1.04858e+06,+0%,0.0,0.0,within normal range
+U6,process_max_fds.smf,Process stats (from the NF),smf,1,1.04858e+06,1.04858e+06,1.04858e+06,+0%,0.0,0.0,within normal range
+U6,process_open_fds.amf,Process stats (from the NF),amf,1,35,35,35,+0%,0.0,0.0,within normal range
+U6,process_open_fds.smf,Process stats (from the NF),smf,1,18,18,18,+0%,0.0,0.0,within normal range
+U6,process_resident_memory_bytes.amf,Process stats (from the NF),amf,1,6.289e+07,6.289e+07,6.289e+07,+0%,0.0,0.0,within normal range
+U6,process_resident_memory_bytes.smf,Process stats (from the NF),smf,1,4.4417e+07,4.4417e+07,4.45882e+07,+0%,0.0,0.0,within normal range
+U6,process_virtual_memory_bytes.amf,Process stats (from the NF),amf,1,1.92102e+09,1.92102e+09,1.92102e+09,+0%,0.0,0.0,within normal range
+U6,process_virtual_memory_bytes.smf,Process stats (from the NF),smf,1,4.65211e+08,4.65211e+08,4.65211e+08,+0%,0.0,0.0,within normal range
+U6,process_virtual_memory_max_bytes.amf,Process stats (from the NF),amf,1,-1,-1,-1,+0%,0.0,0.0,within normal range
+U6,process_virtual_memory_max_bytes.smf,Process stats (from the NF),smf,1,-1,-1,-1,+0%,0.0,0.0,within normal range
+U6,restarted.amf,Process stats (from the NF),amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,restarted.smf,Process stats (from the NF),smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,scrape_samples_post_metric_relabeling.upf,Scrape health,upf,2,14,14,14,+0%,5.7,5.7,stopped reporting for 6% of the fault
+U6,scrape_samples_scraped.upf,Scrape health,upf,2,14,14,14,+0%,5.7,5.7,stopped reporting for 6% of the fault
+U6,up.upf,Scrape health,upf,2,1,1,1,+0%,5.7,5.7,stopped reporting for 6% of the fault
+U6,scrape_duration_seconds.upf,Scrape health,upf,2,0.00146583,0.00135161,0.00137704,-8%,5.7,5.7,stopped reporting for 6% of the fault
+U6,scrape_series_added.upf,Scrape health,upf,2,0,0.121739,0,0 -> 0.1217,6.6,5.7,stopped reporting for 6% of the fault
+U6,scrape_duration_seconds.amf,Scrape health,amf,1,0.00163867,0.00154871,0.00160276,-5%,0.0,0.0,within normal range
+U6,scrape_duration_seconds.smf,Scrape health,smf,1,0.00161035,0.00156479,0.00152794,-3%,0.0,0.0,within normal range
+U6,scrape_samples_post_metric_relabeling.amf,Scrape health,amf,1,26,26,26,+0%,0.0,0.0,within normal range
+U6,scrape_samples_post_metric_relabeling.smf,Scrape health,smf,1,27,27,27,+0%,0.0,0.0,within normal range
+U6,scrape_samples_scraped.amf,Scrape health,amf,1,26,26,26,+0%,0.0,0.0,within normal range
+U6,scrape_samples_scraped.smf,Scrape health,smf,1,27,27,27,+0%,0.0,0.0,within normal range
+U6,scrape_series_added.amf,Scrape health,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,scrape_series_added.smf,Scrape health,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U6,up.amf,Scrape health,amf,1,1,1,1,+0%,0.0,0.0,within normal range
+U6,up.smf,Scrape health,smf,1,1,1,1,+0%,0.0,0.0,within normal range
+U6,cpu.upf,Container CPU,upf,1,0.000952085,0.00113778,0.000603617,+20%,0.0,26.2,within normal range
+U6,cpu.amf,Container CPU,amf,1,0.000814605,0.000778149,0.000794777,-4%,0.0,18.0,within normal range
+U6,cpu.ausf,Container CPU,ausf,1,0.000109935,0.00011147,0.000112903,+1%,0.0,20.5,within normal range
+U6,cpu.bsf,Container CPU,bsf,1,0.000116438,0.000111816,0.000115296,-4%,0.0,20.5,within normal range
+U6,cpu.mongodb,Container CPU,mongodb,1,0.00484256,0.00441764,0.00467905,-9%,0.0,15.6,within normal range
+U6,cpu.n6-server,Container CPU,n6-server,1,0,0,0,unchanged,0.0,39.3,within normal range
+U6,cpu.nrf,Container CPU,nrf,1,0.000296371,0.000278696,0.000273657,-6%,0.0,12.3,within normal range
+U6,cpu.nssf,Container CPU,nssf,1,9.59467e-05,0.000103534,0.000100342,+8%,0.0,5.7,within normal range
+U6,cpu.pcf,Container CPU,pcf,1,0.000104553,0.000103506,0.000106247,-1%,0.0,9.0,within normal range
+U6,cpu.populate,Container CPU,populate,1,3.48714e-05,2.9989e-05,3.90081e-05,-14%,0.0,10.7,within normal range
+U6,cpu.scp,Container CPU,scp,1,0.00054102,0.000513624,0.000514828,-5%,0.0,4.9,within normal range
+U6,cpu.smf,Container CPU,smf,1,0.000787463,0.000805292,0.000736531,+2%,0.0,8.2,within normal range
+U6,cpu.udm,Container CPU,udm,1,0.000107248,0.000114683,0.000119282,+7%,0.0,6.6,within normal range
+U6,cpu.udr,Container CPU,udr,1,0.000112735,0.000106519,0.00010606,-6%,0.0,20.5,within normal range
+U6,cpu.ueransim-gnb,Container CPU,ueransim-gnb,1,0.0015573,0.00134188,0.00126333,-14%,0.0,22.1,within normal range
+U6,cpu.ueransim-gnb-ues,Container CPU,ueransim-gnb-ues,1,0.00376625,0.00271662,0.00263897,-28%,0.0,14.8,within normal range
+U6,mem.upf,Container memory,upf,2,1.847e+07,1.69419e+07,1.86156e+07,-8%,16.4,0.0,outside normal range 16% of the fault
+U6,mem.amf,Container memory,amf,1,5.10828e+07,5.11235e+07,5.11528e+07,+0%,0.0,0.0,within normal range
+U6,mem.ausf,Container memory,ausf,1,7.2963e+06,7.32123e+06,7.34106e+06,+0%,0.0,0.0,within normal range
+U6,mem.bsf,Container memory,bsf,1,7.2485e+06,7.271e+06,7.29651e+06,+0%,0.0,0.0,within normal range
+U6,mem.mongodb,Container memory,mongodb,1,1.71316e+08,1.71326e+08,1.7132e+08,+0%,0.0,0.0,within normal range
+U6,mem.n6-server,Container memory,n6-server,1,221184,221184,221184,+0%,0.0,0.0,within normal range
+U6,mem.nrf,Container memory,nrf,1,1.69183e+07,1.70146e+07,1.7111e+07,+1%,0.0,0.0,within normal range
+U6,mem.nssf,Container memory,nssf,1,7.13084e+06,7.1536e+06,7.17954e+06,+0%,0.0,0.0,within normal range
+U6,mem.pcf,Container memory,pcf,1,8.38639e+06,8.41043e+06,8.43121e+06,+0%,0.0,0.0,within normal range
+U6,mem.populate,Container memory,populate,1,348160,348160,348160,+0%,0.0,0.0,within normal range
+U6,mem.scp,Container memory,scp,1,2.05623e+07,2.07199e+07,2.08719e+07,+1%,0.0,0.0,within normal range
+U6,mem.smf,Container memory,smf,1,3.0592e+07,3.06378e+07,3.06773e+07,+0%,0.0,0.0,within normal range
+U6,mem.udm,Container memory,udm,1,7.45908e+06,7.48222e+06,7.51933e+06,+0%,0.0,0.0,within normal range
+U6,mem.udr,Container memory,udr,1,7.88903e+06,7.91166e+06,7.93593e+06,+0%,0.0,0.0,within normal range
+U6,mem.ueransim-gnb,Container memory,ueransim-gnb,1,3.80109e+06,3.80109e+06,3.80109e+06,+0%,0.0,0.0,within normal range
+U6,mem.ueransim-gnb-ues,Container memory,ueransim-gnb-ues,1,5.53376e+06,5.5337e+06,5.5337e+06,-0%,0.0,0.0,within normal range
+U7,jitter_ms.ue1,UE probe (ping),ue,5,0.236707,0.500547,0.302684,+111%,92.6,94.2,stopped reporting for 93% of the fault
+U7,ping_ok.ue1,UE probe (ping),ue,5,1,0,0.991525,1 -> 0,99.2,2.5,outside normal range 99% of the fault
+U7,ping_rtt_ms.ue1,UE probe (ping),ue,5,0.972504,,0.995393,no data,99.2,100.0,stopped reporting for 99% of the fault
+U7,fivegs_ep_n3_gtp_indatapktn3upf.upf,Open5GS counters and gauges,upf,5,0,0,0,unchanged,98.3,98.3,stopped reporting for 98% of the fault
+U7,fivegs_ep_n3_gtp_outdatapktn3upf.upf,Open5GS counters and gauges,upf,5,0,0,0,unchanged,98.3,98.3,stopped reporting for 98% of the fault
+U7,fivegs_upffunction_sm_n4sessionestabreq.upf,Open5GS counters and gauges,upf,5,2,2,1.96639,+0%,98.3,98.3,stopped reporting for 98% of the fault
+U7,fivegs_upffunction_sm_n4sessionreport.upf,Open5GS counters and gauges,upf,5,0,0,0,unchanged,98.3,98.3,stopped reporting for 98% of the fault
+U7,fivegs_upffunction_sm_n4sessionreportsucc.upf,Open5GS counters and gauges,upf,5,0,0,0,unchanged,98.3,98.3,stopped reporting for 98% of the fault
+U7,fivegs_upffunction_upf_qosflows.upf.dnn=internet,Open5GS counters and gauges,upf,5,2,2,2,+0%,98.3,98.3,stopped reporting for 98% of the fault
+U7,fivegs_upffunction_upf_sessionnbr.upf,Open5GS counters and gauges,upf,5,2,2,1.96639,+0%,98.3,98.3,stopped reporting for 98% of the fault
+U7,amf_session.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U7,bearers_active.smf,Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U7,fivegs_amffunction_amf_authreject.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,fivegs_amffunction_amf_authreq.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U7,fivegs_amffunction_mm_confupdate.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U7,fivegs_amffunction_mm_confupdatesucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,fivegs_amffunction_mm_paging5greq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,fivegs_amffunction_mm_paging5gsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,fivegs_amffunction_rm_regemergreq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,fivegs_amffunction_rm_regemergsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,fivegs_amffunction_rm_reginitfail.amf.cause=95,Open5GS counters and gauges,amf,1,4,4,4,+0%,0.0,0.0,within normal range
+U7,fivegs_amffunction_rm_reginitreq.amf,Open5GS counters and gauges,amf,1,6,6,6,+0%,0.0,0.0,within normal range
+U7,fivegs_amffunction_rm_reginitsucc.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U7,"fivegs_amffunction_rm_registeredsubnbr.amf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U7,fivegs_amffunction_rm_regmobreq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,fivegs_amffunction_rm_regmobsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,fivegs_amffunction_rm_regperiodreq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,fivegs_amffunction_rm_regperiodsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,fivegs_smffunction_sm_n4sessionestabreq.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,fivegs_smffunction_sm_n4sessionreport.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,fivegs_smffunction_sm_n4sessionreportsucc.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,fivegs_smffunction_sm_pdusessioncreationreq.smf,Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U7,"fivegs_smffunction_sm_pdusessioncreationreq.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U7,"fivegs_smffunction_sm_pdusessioncreationsucc.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U7,"fivegs_smffunction_sm_qos_flow_nbr.smf.fiveqi=9,plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U7,"fivegs_smffunction_sm_sessionnbr.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U7,gn_rx_createpdpcontextreq.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,gn_rx_deletepdpcontextreq.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,gn_rx_parse_failed.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,gnb.amf,Open5GS counters and gauges,amf,1,1,1,1,+0%,0.0,0.0,within normal range
+U7,gtp1_pdpctxs_active.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,gtp2_sessions_active.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,gtp_new_node_failed.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,gtp_peers_active.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,ran_ue.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U7,s5c_rx_createsession.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,s5c_rx_deletesession.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,s5c_rx_parse_failed.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,ues_active.smf,Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U7,process_cpu_seconds_total.upf,Process stats (from the NF),upf,5,6,6,0,+0%,98.3,98.3,stopped reporting for 98% of the fault
+U7,process_max_fds.upf,Process stats (from the NF),upf,5,1.04858e+06,1.04858e+06,1.04858e+06,+0%,98.3,98.3,stopped reporting for 98% of the fault
+U7,process_open_fds.upf,Process stats (from the NF),upf,5,11,11,11,+0%,98.3,98.3,stopped reporting for 98% of the fault
+U7,process_resident_memory_bytes.upf,Process stats (from the NF),upf,5,2.8292e+07,2.83034e+07,2.66612e+07,+0%,98.3,98.3,stopped reporting for 98% of the fault
+U7,process_virtual_memory_bytes.upf,Process stats (from the NF),upf,5,2.87007e+08,2.87007e+08,2.87007e+08,+0%,98.3,98.3,stopped reporting for 98% of the fault
+U7,process_virtual_memory_max_bytes.upf,Process stats (from the NF),upf,5,-1,-1,-1,+0%,98.3,98.3,stopped reporting for 98% of the fault
+U7,restarted.upf,Process stats (from the NF),upf,5,0,0,1,unchanged,98.3,98.3,stopped reporting for 98% of the fault
+U7,process_cpu_seconds_total.amf,Process stats (from the NF),amf,1,6,6,6,+0%,0.0,0.0,within normal range
+U7,process_cpu_seconds_total.smf,Process stats (from the NF),smf,1,6,6,6,+0%,0.0,0.0,within normal range
+U7,process_max_fds.amf,Process stats (from the NF),amf,1,1.04858e+06,1.04858e+06,1.04858e+06,+0%,0.0,0.0,within normal range
+U7,process_max_fds.smf,Process stats (from the NF),smf,1,1.04858e+06,1.04858e+06,1.04858e+06,+0%,0.0,0.0,within normal range
+U7,process_open_fds.amf,Process stats (from the NF),amf,1,35,35,35,+0%,0.0,0.0,within normal range
+U7,process_open_fds.smf,Process stats (from the NF),smf,1,18,18,18,+0%,0.0,0.0,within normal range
+U7,process_resident_memory_bytes.amf,Process stats (from the NF),amf,1,6.289e+07,6.289e+07,6.289e+07,+0%,0.0,0.0,within normal range
+U7,process_resident_memory_bytes.smf,Process stats (from the NF),smf,1,4.4417e+07,4.4417e+07,4.4417e+07,+0%,0.0,0.0,within normal range
+U7,process_virtual_memory_bytes.amf,Process stats (from the NF),amf,1,1.92102e+09,1.92102e+09,1.92102e+09,+0%,0.0,0.0,within normal range
+U7,process_virtual_memory_bytes.smf,Process stats (from the NF),smf,1,4.65211e+08,4.65211e+08,4.65211e+08,+0%,0.0,0.0,within normal range
+U7,process_virtual_memory_max_bytes.amf,Process stats (from the NF),amf,1,-1,-1,-1,+0%,0.0,0.0,within normal range
+U7,process_virtual_memory_max_bytes.smf,Process stats (from the NF),smf,1,-1,-1,-1,+0%,0.0,0.0,within normal range
+U7,restarted.amf,Process stats (from the NF),amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,restarted.smf,Process stats (from the NF),smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,scrape_samples_post_metric_relabeling.upf,Scrape health,upf,5,14,0.231405,13.8667,/60,98.3,0.0,outside normal range 98% of the fault
+U7,scrape_samples_scraped.upf,Scrape health,upf,5,14,0.231405,13.8667,/60,98.3,0.0,outside normal range 98% of the fault
+U7,up.upf,Scrape health,upf,5,1,0.0165289,0.991667,/60,98.3,0.0,outside normal range 98% of the fault
+U7,scrape_duration_seconds.upf,Scrape health,upf,1,0.00137994,0.000588761,0.0014424,-57%,0.0,0.0,within normal range
+U7,scrape_series_added.upf,Scrape health,upf,1,0,0,0.00833333,unchanged,0.0,0.0,within normal range
+U7,scrape_duration_seconds.amf,Scrape health,amf,1,0.00149766,0.0015753,0.00159188,+5%,0.8,0.0,within normal range
+U7,scrape_duration_seconds.smf,Scrape health,smf,1,0.00150919,0.00157291,0.00156348,+4%,0.0,0.0,within normal range
+U7,scrape_samples_post_metric_relabeling.amf,Scrape health,amf,1,26,26,26,+0%,0.0,0.0,within normal range
+U7,scrape_samples_post_metric_relabeling.smf,Scrape health,smf,1,27,27,27,+0%,0.0,0.0,within normal range
+U7,scrape_samples_scraped.amf,Scrape health,amf,1,26,26,26,+0%,0.0,0.0,within normal range
+U7,scrape_samples_scraped.smf,Scrape health,smf,1,27,27,27,+0%,0.0,0.0,within normal range
+U7,scrape_series_added.amf,Scrape health,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,scrape_series_added.smf,Scrape health,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U7,up.amf,Scrape health,amf,1,1,1,1,+0%,0.0,0.0,within normal range
+U7,up.smf,Scrape health,smf,1,1,1,1,+0%,0.0,0.0,within normal range
+U7,cpu.upf,Container CPU,upf,5,0.000745611,0.000744885,0.00146834,-0%,90.2,95.0,stopped reporting for 90% of the fault
+U7,cpu.amf,Container CPU,amf,1,0.000737798,0.0008035,0.000779297,+9%,0.0,9.1,within normal range
+U7,cpu.ausf,Container CPU,ausf,1,0.000108614,0.000104193,0.000112504,-4%,0.0,16.5,within normal range
+U7,cpu.bsf,Container CPU,bsf,1,0.000107191,0.000114685,0.000118241,+7%,0.0,4.1,within normal range
+U7,cpu.mongodb,Container CPU,mongodb,1,0.00462144,0.00469136,0.00455159,+2%,0.0,20.7,within normal range
+U7,cpu.n6-server,Container CPU,n6-server,1,0,0,0,unchanged,0.0,55.4,within normal range
+U7,cpu.nrf,Container CPU,nrf,1,0.000260545,0.000273987,0.000322816,+5%,0.0,7.4,within normal range
+U7,cpu.nssf,Container CPU,nssf,1,0.000100885,9.73297e-05,0.000108325,-4%,0.0,8.3,within normal range
+U7,cpu.pcf,Container CPU,pcf,1,9.1399e-05,0.000111098,9.95012e-05,+22%,0.0,24.0,within normal range
+U7,cpu.populate,Container CPU,populate,1,3.50384e-05,4.01841e-05,4.31777e-05,+15%,0.0,17.4,within normal range
+U7,cpu.scp,Container CPU,scp,1,0.000521344,0.000510653,0.000522797,-2%,0.0,4.1,within normal range
+U7,cpu.smf,Container CPU,smf,1,0.00074659,0.000786049,0.000820069,+5%,0.0,5.0,within normal range
+U7,cpu.udm,Container CPU,udm,1,0.000110537,0.000112315,0.000118681,+2%,0.0,21.5,within normal range
+U7,cpu.udr,Container CPU,udr,1,0.000100922,0.000110063,0.000114301,+9%,0.0,10.7,within normal range
+U7,cpu.ueransim-gnb,Container CPU,ueransim-gnb,1,0.00126212,0.00120732,0.00134145,-4%,0.0,1.7,within normal range
+U7,cpu.ueransim-gnb-ues,Container CPU,ueransim-gnb-ues,1,0.00327251,0.00257604,0.00284698,-21%,0.0,6.6,within normal range
+U7,mem.upf,Container memory,upf,1,2.29416e+07,2.29499e+07,3.99934e+07,+0%,0.0,0.0,within normal range
+U7,mem.amf,Container memory,amf,1,5.09194e+07,5.10043e+07,5.10356e+07,+0%,0.0,0.0,within normal range
+U7,mem.ausf,Container memory,ausf,1,7.21177e+06,7.23455e+06,7.25565e+06,+0%,0.0,0.0,within normal range
+U7,mem.bsf,Container memory,bsf,1,7.16057e+06,7.18665e+06,7.21299e+06,+0%,0.0,0.0,within normal range
+U7,mem.mongodb,Container memory,mongodb,1,1.71305e+08,1.71304e+08,1.71315e+08,-0%,0.0,0.0,within normal range
+U7,mem.n6-server,Container memory,n6-server,1,221184,221184,221184,+0%,0.0,0.0,within normal range
+U7,mem.nrf,Container memory,nrf,1,1.65934e+07,1.66714e+07,1.67663e+07,+0%,0.0,0.0,within normal range
+U7,mem.nssf,Container memory,nssf,1,7.0435e+06,7.06919e+06,7.09472e+06,+0%,0.0,0.0,within normal range
+U7,mem.pcf,Container memory,pcf,1,8.32198e+06,8.32402e+06,8.34724e+06,+0%,0.0,0.0,within normal range
+U7,mem.populate,Container memory,populate,1,348160,348160,348160,+0%,0.0,0.0,within normal range
+U7,mem.scp,Container memory,scp,1,1.99693e+07,2.01735e+07,2.03198e+07,+1%,0.0,0.0,within normal range
+U7,mem.smf,Container memory,smf,1,3.04447e+07,3.04844e+07,3.05373e+07,+0%,0.0,0.0,within normal range
+U7,mem.udm,Container memory,udm,1,7.37406e+06,7.39717e+06,7.42328e+06,+0%,0.0,0.0,within normal range
+U7,mem.udr,Container memory,udr,1,7.79931e+06,7.82685e+06,7.85244e+06,+0%,0.0,0.0,within normal range
+U7,mem.ueransim-gnb,Container memory,ueransim-gnb,1,3.80109e+06,3.80109e+06,3.80109e+06,+0%,0.0,0.0,within normal range
+U7,mem.ueransim-gnb-ues,Container memory,ueransim-gnb-ues,1,5.22861e+06,5.24288e+06,5.24288e+06,+0%,0.0,0.0,within normal range
+U8,jitter_ms.ue1,UE probe (ping),ue,4,0.23361,6.94246,0.205445,x30,70.5,0.0,outside normal range 70% of the fault
+U8,ping_ok.ue1,UE probe (ping),ue,1,1,1,1,+0%,0.0,0.8,within normal range
+U8,ping_rtt_ms.ue1,UE probe (ping),ue,2,1.05213,4.45304,0.976992,+323%,15.6,0.8,outside normal range 16% of the fault
+U8,fivegs_ep_n3_gtp_indatapktn3upf.upf,Open5GS counters and gauges,upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_ep_n3_gtp_outdatapktn3upf.upf,Open5GS counters and gauges,upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_upffunction_sm_n4sessionestabreq.upf,Open5GS counters and gauges,upf,1,2,2,2,+0%,0.0,0.0,within normal range
+U8,fivegs_upffunction_sm_n4sessionreport.upf,Open5GS counters and gauges,upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_upffunction_sm_n4sessionreportsucc.upf,Open5GS counters and gauges,upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_upffunction_upf_qosflows.upf.dnn=internet,Open5GS counters and gauges,upf,1,2,2,2,+0%,0.0,0.0,within normal range
+U8,fivegs_upffunction_upf_sessionnbr.upf,Open5GS counters and gauges,upf,1,2,2,2,+0%,0.0,0.0,within normal range
+U8,amf_session.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U8,bearers_active.smf,Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U8,fivegs_amffunction_amf_authreject.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_amffunction_amf_authreq.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U8,fivegs_amffunction_mm_confupdate.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U8,fivegs_amffunction_mm_confupdatesucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_amffunction_mm_paging5greq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_amffunction_mm_paging5gsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_amffunction_rm_regemergreq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_amffunction_rm_regemergsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_amffunction_rm_reginitfail.amf.cause=95,Open5GS counters and gauges,amf,1,4,4,4,+0%,0.0,0.0,within normal range
+U8,fivegs_amffunction_rm_reginitreq.amf,Open5GS counters and gauges,amf,1,6,6,6,+0%,0.0,0.0,within normal range
+U8,fivegs_amffunction_rm_reginitsucc.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U8,"fivegs_amffunction_rm_registeredsubnbr.amf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U8,fivegs_amffunction_rm_regmobreq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_amffunction_rm_regmobsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_amffunction_rm_regperiodreq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_amffunction_rm_regperiodsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_smffunction_sm_n4sessionestabreq.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_smffunction_sm_n4sessionreport.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_smffunction_sm_n4sessionreportsucc.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,fivegs_smffunction_sm_pdusessioncreationreq.smf,Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U8,"fivegs_smffunction_sm_pdusessioncreationreq.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U8,"fivegs_smffunction_sm_pdusessioncreationsucc.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U8,"fivegs_smffunction_sm_qos_flow_nbr.smf.fiveqi=9,plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U8,"fivegs_smffunction_sm_sessionnbr.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U8,gn_rx_createpdpcontextreq.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,gn_rx_deletepdpcontextreq.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,gn_rx_parse_failed.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,gnb.amf,Open5GS counters and gauges,amf,1,1,1,1,+0%,0.0,0.0,within normal range
+U8,gtp1_pdpctxs_active.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,gtp2_sessions_active.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,gtp_new_node_failed.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,gtp_peers_active.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,ran_ue.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U8,s5c_rx_createsession.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,s5c_rx_deletesession.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,s5c_rx_parse_failed.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,ues_active.smf,Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U8,process_cpu_seconds_total.upf,Process stats (from the NF),upf,1,3,3,3,+0%,0.0,0.0,within normal range
+U8,process_max_fds.upf,Process stats (from the NF),upf,1,1.04858e+06,1.04858e+06,1.04858e+06,+0%,0.0,0.0,within normal range
+U8,process_open_fds.upf,Process stats (from the NF),upf,1,11,11,11,+0%,0.0,0.0,within normal range
+U8,process_resident_memory_bytes.upf,Process stats (from the NF),upf,1,2.77846e+07,2.78057e+07,2.78231e+07,+0%,0.0,0.0,within normal range
+U8,process_virtual_memory_bytes.upf,Process stats (from the NF),upf,1,2.87007e+08,2.87007e+08,2.87007e+08,+0%,0.0,0.0,within normal range
+U8,process_virtual_memory_max_bytes.upf,Process stats (from the NF),upf,1,-1,-1,-1,+0%,0.0,0.0,within normal range
+U8,restarted.upf,Process stats (from the NF),upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,process_cpu_seconds_total.amf,Process stats (from the NF),amf,1,3,3,3,+0%,0.0,0.0,within normal range
+U8,process_cpu_seconds_total.smf,Process stats (from the NF),smf,1,3,3,3.13333,+0%,0.0,0.0,within normal range
+U8,process_max_fds.amf,Process stats (from the NF),amf,1,1.04858e+06,1.04858e+06,1.04858e+06,+0%,0.0,0.0,within normal range
+U8,process_max_fds.smf,Process stats (from the NF),smf,1,1.04858e+06,1.04858e+06,1.04858e+06,+0%,0.0,0.0,within normal range
+U8,process_open_fds.amf,Process stats (from the NF),amf,1,35,35,35,+0%,0.0,0.0,within normal range
+U8,process_open_fds.smf,Process stats (from the NF),smf,1,18,18,18,+0%,0.0,0.0,within normal range
+U8,process_resident_memory_bytes.amf,Process stats (from the NF),amf,1,6.2079e+07,6.2079e+07,6.2079e+07,+0%,0.0,0.0,within normal range
+U8,process_resident_memory_bytes.smf,Process stats (from the NF),smf,1,4.33357e+07,4.33357e+07,4.33357e+07,+0%,0.0,0.0,within normal range
+U8,process_virtual_memory_bytes.amf,Process stats (from the NF),amf,1,1.92102e+09,1.92102e+09,1.92102e+09,+0%,0.0,0.0,within normal range
+U8,process_virtual_memory_bytes.smf,Process stats (from the NF),smf,1,4.65211e+08,4.65211e+08,4.65211e+08,+0%,0.0,0.0,within normal range
+U8,process_virtual_memory_max_bytes.amf,Process stats (from the NF),amf,1,-1,-1,-1,+0%,0.0,0.0,within normal range
+U8,process_virtual_memory_max_bytes.smf,Process stats (from the NF),smf,1,-1,-1,-1,+0%,0.0,0.0,within normal range
+U8,restarted.amf,Process stats (from the NF),amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,restarted.smf,Process stats (from the NF),smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,scrape_samples_post_metric_relabeling.upf,Scrape health,upf,1,14,14,14,+0%,0.0,0.0,within normal range
+U8,scrape_samples_scraped.upf,Scrape health,upf,1,14,14,14,+0%,0.0,0.0,within normal range
+U8,up.upf,Scrape health,upf,1,1,1,1,+0%,0.0,0.0,within normal range
+U8,scrape_duration_seconds.upf,Scrape health,upf,2,0.00145742,0.0023332,0.00139617,+60%,13.1,0.0,outside normal range 13% of the fault
+U8,scrape_series_added.upf,Scrape health,upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,scrape_duration_seconds.amf,Scrape health,amf,1,0.0015791,0.00157547,0.00151725,-0%,1.6,0.0,within normal range
+U8,scrape_duration_seconds.smf,Scrape health,smf,1,0.00155484,0.00154349,0.00151732,-1%,0.0,0.0,within normal range
+U8,scrape_samples_post_metric_relabeling.amf,Scrape health,amf,1,26,26,26,+0%,0.0,0.0,within normal range
+U8,scrape_samples_post_metric_relabeling.smf,Scrape health,smf,1,27,27,27,+0%,0.0,0.0,within normal range
+U8,scrape_samples_scraped.amf,Scrape health,amf,1,26,26,26,+0%,0.0,0.0,within normal range
+U8,scrape_samples_scraped.smf,Scrape health,smf,1,27,27,27,+0%,0.0,0.0,within normal range
+U8,scrape_series_added.amf,Scrape health,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,scrape_series_added.smf,Scrape health,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U8,up.amf,Scrape health,amf,1,1,1,1,+0%,0.0,0.0,within normal range
+U8,up.smf,Scrape health,smf,1,1,1,1,+0%,0.0,0.0,within normal range
+U8,cpu.upf,Container CPU,upf,5,0.000960272,0.776169,0.123236,x808,77.0,8.2,outside normal range 77% of the fault
+U8,cpu.amf,Container CPU,amf,1,0.000772719,0.000739142,0.000772438,-4%,0.0,3.3,within normal range
+U8,cpu.ausf,Container CPU,ausf,1,0.000107904,0.000102958,0.000102979,-5%,0.0,18.0,within normal range
+U8,cpu.bsf,Container CPU,bsf,1,0.000109254,0.000106795,0.000109639,-2%,0.0,13.1,within normal range
+U8,cpu.mongodb,Container CPU,mongodb,1,0.00474613,0.00458426,0.00460728,-3%,0.0,26.2,within normal range
+U8,cpu.n6-server,Container CPU,n6-server,1,0,0,0,unchanged,0.0,55.7,within normal range
+U8,cpu.nrf,Container CPU,nrf,1,0.000277646,0.000274456,0.000273716,-1%,0.0,9.0,within normal range
+U8,cpu.nssf,Container CPU,nssf,1,0.000102793,0.000105992,9.31452e-05,+3%,0.0,5.7,within normal range
+U8,cpu.pcf,Container CPU,pcf,1,0.000109944,9.19522e-05,9.98861e-05,-16%,0.0,16.4,within normal range
+U8,cpu.populate,Container CPU,populate,1,3.88352e-05,3.79346e-05,4.56924e-05,-2%,0.0,4.9,within normal range
+U8,cpu.scp,Container CPU,scp,1,0.000524848,0.000531685,0.0004996,+1%,0.0,18.0,within normal range
+U8,cpu.smf,Container CPU,smf,1,0.000800615,0.000789067,0.000762402,-1%,0.0,20.5,within normal range
+U8,cpu.udm,Container CPU,udm,1,0.00011495,0.000108372,0.000113387,-6%,0.0,10.7,within normal range
+U8,cpu.udr,Container CPU,udr,1,0.000102771,9.73552e-05,0.000105039,-5%,0.0,13.9,within normal range
+U8,cpu.ueransim-gnb,Container CPU,ueransim-gnb,1,0.00145576,0.00140853,0.00139753,-3%,0.0,18.9,within normal range
+U8,cpu.ueransim-gnb-ues,Container CPU,ueransim-gnb-ues,1,0.00346007,0.00277569,0.00291708,-20%,0.0,18.9,within normal range
+U8,mem.upf,Container memory,upf,2,1.93914e+07,2.34701e+07,2.03269e+07,+21%,85.2,0.0,"outside normal range 85% of the fault, but the change is small"
+U8,mem.amf,Container memory,amf,1,5.01377e+07,5.01688e+07,5.02182e+07,+0%,0.0,0.0,within normal range
+U8,mem.ausf,Container memory,ausf,1,6.60074e+06,6.62414e+06,6.65122e+06,+0%,0.0,0.0,within normal range
+U8,mem.bsf,Container memory,bsf,1,6.55654e+06,6.59684e+06,6.60115e+06,+1%,0.0,0.0,within normal range
+U8,mem.mongodb,Container memory,mongodb,1,1.71441e+08,1.7146e+08,1.71447e+08,+0%,0.0,0.0,within normal range
+U8,mem.n6-server,Container memory,n6-server,1,221184,221184,221184,+0%,0.0,0.0,within normal range
+U8,mem.nrf,Container memory,nrf,1,1.20647e+07,1.22051e+07,1.23458e+07,+1%,0.0,0.0,within normal range
+U8,mem.nssf,Container memory,nssf,1,6.4371e+06,6.46178e+06,6.48428e+06,+0%,0.0,0.0,within normal range
+U8,mem.pcf,Container memory,pcf,1,7.68747e+06,7.71025e+06,7.73584e+06,+0%,0.0,0.0,within normal range
+U8,mem.populate,Container memory,populate,1,348160,348160,348160,+0%,0.0,0.0,within normal range
+U8,mem.scp,Container memory,scp,1,1.47873e+07,1.49691e+07,1.51719e+07,+1%,0.0,0.0,within normal range
+U8,mem.smf,Container memory,smf,1,2.93604e+07,2.94053e+07,2.94468e+07,+0%,0.0,0.0,within normal range
+U8,mem.udm,Container memory,udm,1,6.76431e+06,6.80802e+06,6.81295e+06,+1%,0.0,0.0,within normal range
+U8,mem.udr,Container memory,udr,1,7.20737e+06,7.22007e+06,7.24183e+06,+0%,0.0,0.0,within normal range
+U8,mem.ueransim-gnb,Container memory,ueransim-gnb,1,3.79699e+06,3.79699e+06,3.79699e+06,+0%,0.0,0.0,within normal range
+U8,mem.ueransim-gnb-ues,Container memory,ueransim-gnb-ues,1,4.10925e+06,4.13991e+06,4.15e+06,+1%,0.0,0.0,within normal range
+U9,jitter_ms.ue1,UE probe (ping),ue,1,0.16146,0.260254,0.193045,+61%,0.0,0.0,within normal range
+U9,ping_ok.ue1,UE probe (ping),ue,1,1,1,1,+0%,0.8,1.7,within normal range
+U9,ping_rtt_ms.ue1,UE probe (ping),ue,1,0.977528,0.923193,0.988144,-6%,2.5,1.7,within normal range
+U9,fivegs_ep_n3_gtp_indatapktn3upf.upf,Open5GS counters and gauges,upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_ep_n3_gtp_outdatapktn3upf.upf,Open5GS counters and gauges,upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_upffunction_sm_n4sessionestabreq.upf,Open5GS counters and gauges,upf,1,2,2,2,+0%,0.0,0.0,within normal range
+U9,fivegs_upffunction_sm_n4sessionreport.upf,Open5GS counters and gauges,upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_upffunction_sm_n4sessionreportsucc.upf,Open5GS counters and gauges,upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_upffunction_upf_qosflows.upf.dnn=internet,Open5GS counters and gauges,upf,1,2,2,2,+0%,0.0,0.0,within normal range
+U9,fivegs_upffunction_upf_sessionnbr.upf,Open5GS counters and gauges,upf,1,2,2,2,+0%,0.0,0.0,within normal range
+U9,amf_session.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U9,bearers_active.smf,Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U9,fivegs_amffunction_amf_authreject.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_amffunction_amf_authreq.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U9,fivegs_amffunction_mm_confupdate.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U9,fivegs_amffunction_mm_confupdatesucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_amffunction_mm_paging5greq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_amffunction_mm_paging5gsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_amffunction_rm_regemergreq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_amffunction_rm_regemergsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_amffunction_rm_reginitfail.amf.cause=95,Open5GS counters and gauges,amf,1,4,4,4,+0%,0.0,0.0,within normal range
+U9,fivegs_amffunction_rm_reginitreq.amf,Open5GS counters and gauges,amf,1,6,6,6,+0%,0.0,0.0,within normal range
+U9,fivegs_amffunction_rm_reginitsucc.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U9,"fivegs_amffunction_rm_registeredsubnbr.amf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U9,fivegs_amffunction_rm_regmobreq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_amffunction_rm_regmobsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_amffunction_rm_regperiodreq.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_amffunction_rm_regperiodsucc.amf,Open5GS counters and gauges,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_smffunction_sm_n4sessionestabreq.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_smffunction_sm_n4sessionreport.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_smffunction_sm_n4sessionreportsucc.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,fivegs_smffunction_sm_pdusessioncreationreq.smf,Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U9,"fivegs_smffunction_sm_pdusessioncreationreq.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U9,"fivegs_smffunction_sm_pdusessioncreationsucc.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U9,"fivegs_smffunction_sm_qos_flow_nbr.smf.fiveqi=9,plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U9,"fivegs_smffunction_sm_sessionnbr.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U9,gn_rx_createpdpcontextreq.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,gn_rx_deletepdpcontextreq.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,gn_rx_parse_failed.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,gnb.amf,Open5GS counters and gauges,amf,1,1,1,1,+0%,0.0,0.0,within normal range
+U9,gtp1_pdpctxs_active.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,gtp2_sessions_active.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,gtp_new_node_failed.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,gtp_peers_active.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,ran_ue.amf,Open5GS counters and gauges,amf,1,2,2,2,+0%,0.0,0.0,within normal range
+U9,s5c_rx_createsession.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,s5c_rx_deletesession.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,s5c_rx_parse_failed.smf,Open5GS counters and gauges,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,ues_active.smf,Open5GS counters and gauges,smf,1,2,2,2,+0%,0.0,0.0,within normal range
+U9,process_cpu_seconds_total.upf,Process stats (from the NF),upf,1,4,4,4.33884,+0%,0.0,0.0,within normal range
+U9,process_max_fds.upf,Process stats (from the NF),upf,1,1.04858e+06,1.04858e+06,1.04858e+06,+0%,0.0,0.0,within normal range
+U9,process_open_fds.upf,Process stats (from the NF),upf,1,11,11,11,+0%,0.0,0.0,within normal range
+U9,process_resident_memory_bytes.upf,Process stats (from the NF),upf,1,2.79624e+07,2.79831e+07,2.80017e+07,+0%,0.0,0.0,within normal range
+U9,process_virtual_memory_bytes.upf,Process stats (from the NF),upf,1,2.87007e+08,2.87007e+08,2.87007e+08,+0%,0.0,0.0,within normal range
+U9,process_virtual_memory_max_bytes.upf,Process stats (from the NF),upf,1,-1,-1,-1,+0%,0.0,0.0,within normal range
+U9,restarted.upf,Process stats (from the NF),upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,process_cpu_seconds_total.amf,Process stats (from the NF),amf,1,4,4,4,+0%,0.0,0.0,within normal range
+U9,process_cpu_seconds_total.smf,Process stats (from the NF),smf,1,4,4,4,+0%,0.0,0.0,within normal range
+U9,process_max_fds.amf,Process stats (from the NF),amf,1,1.04858e+06,1.04858e+06,1.04858e+06,+0%,0.0,0.0,within normal range
+U9,process_max_fds.smf,Process stats (from the NF),smf,1,1.04858e+06,1.04858e+06,1.04858e+06,+0%,0.0,0.0,within normal range
+U9,process_open_fds.amf,Process stats (from the NF),amf,1,35,35,35,+0%,0.0,0.0,within normal range
+U9,process_open_fds.smf,Process stats (from the NF),smf,1,18,18,18,+0%,0.0,0.0,within normal range
+U9,process_resident_memory_bytes.amf,Process stats (from the NF),amf,1,6.23493e+07,6.23493e+07,6.23493e+07,+0%,0.0,0.0,within normal range
+U9,process_resident_memory_bytes.smf,Process stats (from the NF),smf,1,4.3606e+07,4.3606e+07,4.3606e+07,+0%,0.0,0.0,within normal range
+U9,process_virtual_memory_bytes.amf,Process stats (from the NF),amf,1,1.92102e+09,1.92102e+09,1.92102e+09,+0%,0.0,0.0,within normal range
+U9,process_virtual_memory_bytes.smf,Process stats (from the NF),smf,1,4.65211e+08,4.65211e+08,4.65211e+08,+0%,0.0,0.0,within normal range
+U9,process_virtual_memory_max_bytes.amf,Process stats (from the NF),amf,1,-1,-1,-1,+0%,0.0,0.0,within normal range
+U9,process_virtual_memory_max_bytes.smf,Process stats (from the NF),smf,1,-1,-1,-1,+0%,0.0,0.0,within normal range
+U9,restarted.amf,Process stats (from the NF),amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,restarted.smf,Process stats (from the NF),smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,scrape_samples_post_metric_relabeling.upf,Scrape health,upf,1,14,14,14,+0%,0.0,0.0,within normal range
+U9,scrape_samples_scraped.upf,Scrape health,upf,1,14,14,14,+0%,0.0,0.0,within normal range
+U9,up.upf,Scrape health,upf,1,1,1,1,+0%,0.0,0.0,within normal range
+U9,scrape_duration_seconds.upf,Scrape health,upf,1,0.00145006,0.00142476,0.00149247,-2%,0.8,0.0,within normal range
+U9,scrape_series_added.upf,Scrape health,upf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,scrape_duration_seconds.amf,Scrape health,amf,1,0.00156283,0.00153326,0.00155632,-2%,0.0,0.0,within normal range
+U9,scrape_duration_seconds.smf,Scrape health,smf,1,0.00150305,0.0015273,0.00152767,+2%,0.0,0.0,within normal range
+U9,scrape_samples_post_metric_relabeling.amf,Scrape health,amf,1,26,26,26,+0%,0.0,0.0,within normal range
+U9,scrape_samples_post_metric_relabeling.smf,Scrape health,smf,1,27,27,27,+0%,0.0,0.0,within normal range
+U9,scrape_samples_scraped.amf,Scrape health,amf,1,26,26,26,+0%,0.0,0.0,within normal range
+U9,scrape_samples_scraped.smf,Scrape health,smf,1,27,27,27,+0%,0.0,0.0,within normal range
+U9,scrape_series_added.amf,Scrape health,amf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,scrape_series_added.smf,Scrape health,smf,1,0,0,0,unchanged,0.0,0.0,within normal range
+U9,up.amf,Scrape health,amf,1,1,1,1,+0%,0.0,0.0,within normal range
+U9,up.smf,Scrape health,smf,1,1,1,1,+0%,0.0,0.0,within normal range
+U9,cpu.upf,Container CPU,upf,1,0.00106778,0.00250844,0.00122787,+135%,5.0,10.7,within normal range
+U9,cpu.amf,Container CPU,amf,1,0.000775327,0.000778425,0.000796029,+0%,0.0,9.9,within normal range
+U9,cpu.ausf,Container CPU,ausf,1,0.000106426,0.000105925,0.000117144,-0%,0.0,0.8,within normal range
+U9,cpu.bsf,Container CPU,bsf,1,0.000109136,0.000117386,0.00011504,+8%,0.0,14.9,within normal range
+U9,cpu.mongodb,Container CPU,mongodb,1,0.00463233,0.00442177,0.00449092,-5%,0.0,21.5,within normal range
+U9,cpu.n6-server,Container CPU,n6-server,1,0,0,0,unchanged,0.0,36.4,within normal range
+U9,cpu.nrf,Container CPU,nrf,1,0.000301438,0.0002876,0.000288151,-5%,0.0,7.4,within normal range
+U9,cpu.nssf,Container CPU,nssf,1,0.000101178,0.000106853,0.000104184,+6%,0.0,12.4,within normal range
+U9,cpu.pcf,Container CPU,pcf,1,9.92428e-05,0.000101842,0.00010187,+3%,0.0,7.4,within normal range
+U9,cpu.populate,Container CPU,populate,1,4.25802e-05,4.20111e-05,4.25541e-05,-1%,0.0,9.1,within normal range
+U9,cpu.scp,Container CPU,scp,1,0.000512407,0.000525001,0.00048143,+2%,0.0,8.3,within normal range
+U9,cpu.smf,Container CPU,smf,1,0.000758938,0.000740633,0.000780803,-2%,0.0,17.4,within normal range
+U9,cpu.udm,Container CPU,udm,1,0.000110713,0.000110509,0.000111759,-0%,0.0,4.1,within normal range
+U9,cpu.udr,Container CPU,udr,1,0.000100947,9.78367e-05,0.000108182,-3%,0.0,22.3,within normal range
+U9,cpu.ueransim-gnb,Container CPU,ueransim-gnb,1,0.00168991,0.00162413,0.00180508,-4%,0.0,17.4,within normal range
+U9,cpu.ueransim-gnb-ues,Container CPU,ueransim-gnb-ues,1,0.00372607,0.00333963,0.00342467,-10%,0.0,2.5,within normal range
+U9,mem.upf,Container memory,upf,5,2.04625e+07,1.39068e+08,2.68935e+07,+580%,90.9,0.0,outside normal range 91% of the fault
+U9,mem.amf,Container memory,amf,1,5.04128e+07,5.04418e+07,5.04746e+07,+0%,0.0,0.0,within normal range
+U9,mem.ausf,Container memory,ausf,1,6.81386e+06,6.84015e+06,6.86195e+06,+0%,0.0,0.0,within normal range
+U9,mem.bsf,Container memory,bsf,1,6.77006e+06,6.79225e+06,6.81419e+06,+0%,0.0,0.0,within normal range
+U9,mem.mongodb,Container memory,mongodb,1,1.71426e+08,1.712e+08,1.71267e+08,-0%,0.0,0.0,within normal range
+U9,mem.n6-server,Container memory,n6-server,1,221184,221184,221184,+0%,0.0,0.0,within normal range
+U9,mem.nrf,Container memory,nrf,1,1.32967e+07,1.34444e+07,1.35875e+07,+1%,0.0,0.0,within normal range
+U9,mem.nssf,Container memory,nssf,1,6.65088e+06,6.67384e+06,6.69723e+06,+0%,0.0,0.0,within normal range
+U9,mem.pcf,Container memory,pcf,1,7.90175e+06,7.92667e+06,7.94874e+06,+0%,0.0,0.0,within normal range
+U9,mem.populate,Container memory,populate,1,348160,348160,348160,+0%,0.0,0.0,within normal range
+U9,mem.scp,Container memory,scp,1,1.65701e+07,1.67788e+07,1.6982e+07,+1%,0.0,0.0,within normal range
+U9,mem.smf,Container memory,smf,1,2.97417e+07,2.97829e+07,2.98269e+07,+0%,0.0,0.0,within normal range
+U9,mem.udm,Container memory,udm,1,6.98041e+06,7.00223e+06,7.02538e+06,+0%,0.0,0.0,within normal range
+U9,mem.udr,Container memory,udr,1,7.4092e+06,7.43177e+06,7.46901e+06,+0%,0.0,0.0,within normal range
+U9,mem.ueransim-gnb,Container memory,ueransim-gnb,1,3.79699e+06,3.79892e+06,3.80109e+06,+0%,0.0,0.0,within normal range
+U9,mem.ueransim-gnb-ues,Container memory,ueransim-gnb-ues,1,4.76398e+06,4.76815e+06,4.77854e+06,+0%,0.0,0.0,within normal range

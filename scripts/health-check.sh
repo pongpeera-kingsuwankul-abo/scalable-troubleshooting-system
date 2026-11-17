@@ -55,8 +55,8 @@ else
   check "gNB pod not ready" fail
 fi
 
-UE_POD=$(kubectl -n open5gs get pods -l app.kubernetes.io/name=ueransim-gnb-ues \
-  -o jsonpath='{.items[0].metadata.name}' 2>/dev/null)
+UE_POD=$(kubectl -n open5gs get pods -l app.kubernetes.io/component=ues \
+  -o jsonpath='{.items[*].metadata.name}' 2>/dev/null | awk '{print $1}' || true)
 if [ -z "$UE_POD" ]; then
   # Fallback: find any pod with "ues" in the name
   UE_POD=$(kubectl -n open5gs get pods -o jsonpath='{range .items[*]}{.metadata.name}{"\n"}{end}' \
@@ -77,7 +77,7 @@ echo ""
 echo "═══ 4. Data-plane ping (UE → n6-server) ═══"
 # n6-server is a deployment without a Service, so get the pod IP directly
 N6_IP=$(kubectl -n open5gs get pods -l app=n6-server \
-  -o jsonpath='{.items[0].status.podIP}' 2>/dev/null || echo "")
+  -o jsonpath='{.items[*].status.podIP}' 2>/dev/null | awk '{print $1}' || true)
 if [ -z "$N6_IP" ]; then
   # Fallback: find by name pattern
   N6_POD=$(kubectl -n open5gs get pods -o jsonpath='{range .items[*]}{.metadata.name}{"\n"}{end}' \
@@ -101,7 +101,7 @@ fi
 
 echo ""
 echo "═══ 5. Prometheus scrape targets ═══"
-TARGETS=$(curl -s localhost:9090/api/v1/targets 2>/dev/null)
+TARGETS=$(curl -s --max-time 5 localhost:9090/api/v1/targets 2>/dev/null || true)
 if [ -n "$TARGETS" ]; then
   DOWN=$(echo "$TARGETS" | python3 -c "
 import json,sys

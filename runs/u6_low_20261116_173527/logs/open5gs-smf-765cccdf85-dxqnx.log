@@ -1,0 +1,6 @@
+2026-11-16T17:37:35.790849749Z [32m11/16 17:37:35.790[0m: [[33mpfcp[0m] [1;33mERROR[0m: Remote PFCP restarted [4003827870<4003839455] in Heartbeat RSP (../lib/pfcp/handler.c:76)
+2026-11-16T17:37:35.790889844Z [32m11/16 17:37:35.790[0m: [[33msmf[0m] [1;32mINFO[0m: PFCP de-associated [10.43.254.107]:8805 (../src/smf/pfcp-sm.c:211)
+2026-11-16T17:37:35.791563885Z [32m11/16 17:37:35.790[0m: [[33msmf[0m] [1;32mINFO[0m: PFCP associated [10.43.254.107]:8805 (../src/smf/pfcp-sm.c:196)
+2026-11-16T17:37:35.791576596Z [32m11/16 17:37:35.791[0m: [[33msmf[0m] [1;32mINFO[0m: UE SUPI[imsi-999700000000001] DNN[internet] IPv4[10.45.0.4] IPv6[] (../src/smf/pfcp-sm.c:461)
+2026-11-16T17:37:35.791582178Z [32m11/16 17:37:35.791[0m: [[33msmf[0m] [1;32mINFO[0m: UE SUPI[imsi-999700000000002] DNN[internet] IPv4[10.45.0.5] IPv6[] (../src/smf/pfcp-sm.c:461)
+2026-11-16T17:37:35.791587263Z [32m11/16 17:37:35.791[0m: [[33msmf[0m] [1;33mERROR[0m: PFCP restoration (../src/smf/pfcp-sm.c:207)

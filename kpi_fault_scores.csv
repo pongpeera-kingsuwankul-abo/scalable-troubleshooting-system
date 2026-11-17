@@ -1,0 +1,118 @@
+kpi,group,nf,U5,U6,U7,U8,U9,max_score
+jitter_ms.ue1,UE probe (ping),ue,5,5,5,4,1,5
+ping_ok.ue1,UE probe (ping),ue,3,5,5,1,1,5
+ping_rtt_ms.ue1,UE probe (ping),ue,5,5,5,2,1,5
+fivegs_ep_n3_gtp_indatapktn3upf.upf,Open5GS counters and gauges,upf,1,2,5,1,1,5
+fivegs_ep_n3_gtp_outdatapktn3upf.upf,Open5GS counters and gauges,upf,1,2,5,1,1,5
+fivegs_upffunction_sm_n4sessionestabreq.upf,Open5GS counters and gauges,upf,1,2,5,1,1,5
+fivegs_upffunction_sm_n4sessionreport.upf,Open5GS counters and gauges,upf,1,2,5,1,1,5
+fivegs_upffunction_sm_n4sessionreportsucc.upf,Open5GS counters and gauges,upf,1,2,5,1,1,5
+fivegs_upffunction_upf_qosflows.upf.dnn=internet,Open5GS counters and gauges,upf,1,2,5,1,1,5
+fivegs_upffunction_upf_sessionnbr.upf,Open5GS counters and gauges,upf,1,2,5,1,1,5
+amf_session.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+bearers_active.smf,Open5GS counters and gauges,smf,1,1,1,1,1,1
+fivegs_amffunction_amf_authreject.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+fivegs_amffunction_amf_authreq.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+fivegs_amffunction_mm_confupdate.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+fivegs_amffunction_mm_confupdatesucc.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+fivegs_amffunction_mm_paging5greq.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+fivegs_amffunction_mm_paging5gsucc.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+fivegs_amffunction_rm_regemergreq.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+fivegs_amffunction_rm_regemergsucc.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+fivegs_amffunction_rm_reginitfail.amf.cause=95,Open5GS counters and gauges,amf,1,1,1,1,1,1
+fivegs_amffunction_rm_reginitreq.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+fivegs_amffunction_rm_reginitsucc.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+"fivegs_amffunction_rm_registeredsubnbr.amf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,amf,1,1,1,1,1,1
+fivegs_amffunction_rm_regmobreq.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+fivegs_amffunction_rm_regmobsucc.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+fivegs_amffunction_rm_regperiodreq.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+fivegs_amffunction_rm_regperiodsucc.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+fivegs_smffunction_sm_n4sessionestabreq.smf,Open5GS counters and gauges,smf,1,1,1,1,1,1
+fivegs_smffunction_sm_n4sessionreport.smf,Open5GS counters and gauges,smf,1,1,1,1,1,1
+fivegs_smffunction_sm_n4sessionreportsucc.smf,Open5GS counters and gauges,smf,1,1,1,1,1,1
+fivegs_smffunction_sm_pdusessioncreationreq.smf,Open5GS counters and gauges,smf,1,1,1,1,1,1
+"fivegs_smffunction_sm_pdusessioncreationreq.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,1,1,1,1,1
+"fivegs_smffunction_sm_pdusessioncreationsucc.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,1,1,1,1,1
+"fivegs_smffunction_sm_qos_flow_nbr.smf.fiveqi=9,plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,1,1,1,1,1
+"fivegs_smffunction_sm_sessionnbr.smf.plmnid=99970,snssai=1-111111",Open5GS counters and gauges,smf,1,1,1,1,1,1
+gn_rx_createpdpcontextreq.smf,Open5GS counters and gauges,smf,1,1,1,1,1,1
+gn_rx_deletepdpcontextreq.smf,Open5GS counters and gauges,smf,1,1,1,1,1,1
+gn_rx_parse_failed.smf,Open5GS counters and gauges,smf,1,1,1,1,1,1
+gnb.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+gtp1_pdpctxs_active.smf,Open5GS counters and gauges,smf,1,1,1,1,1,1
+gtp2_sessions_active.smf,Open5GS counters and gauges,smf,1,1,1,1,1,1
+gtp_new_node_failed.smf,Open5GS counters and gauges,smf,1,1,1,1,1,1
+gtp_peers_active.smf,Open5GS counters and gauges,smf,1,1,1,1,1,1
+ran_ue.amf,Open5GS counters and gauges,amf,1,1,1,1,1,1
+s5c_rx_createsession.smf,Open5GS counters and gauges,smf,1,1,1,1,1,1
+s5c_rx_deletesession.smf,Open5GS counters and gauges,smf,1,1,1,1,1,1
+s5c_rx_parse_failed.smf,Open5GS counters and gauges,smf,1,1,1,1,1,1
+ues_active.smf,Open5GS counters and gauges,smf,1,1,1,1,1,1
+process_cpu_seconds_total.upf,Process stats (from the NF),upf,1,2,5,1,1,5
+process_max_fds.upf,Process stats (from the NF),upf,1,2,5,1,1,5
+process_open_fds.upf,Process stats (from the NF),upf,1,2,5,1,1,5
+process_resident_memory_bytes.upf,Process stats (from the NF),upf,1,2,5,1,1,5
+process_virtual_memory_bytes.upf,Process stats (from the NF),upf,1,2,5,1,1,5
+process_virtual_memory_max_bytes.upf,Process stats (from the NF),upf,1,2,5,1,1,5
+restarted.upf,Process stats (from the NF),upf,1,5,5,1,1,5
+process_cpu_seconds_total.amf,Process stats (from the NF),amf,1,1,1,1,1,1
+process_cpu_seconds_total.smf,Process stats (from the NF),smf,1,1,1,1,1,1
+process_max_fds.amf,Process stats (from the NF),amf,1,1,1,1,1,1
+process_max_fds.smf,Process stats (from the NF),smf,1,1,1,1,1,1
+process_open_fds.amf,Process stats (from the NF),amf,1,1,1,1,1,1
+process_open_fds.smf,Process stats (from the NF),smf,1,1,1,1,1,1
+process_resident_memory_bytes.amf,Process stats (from the NF),amf,1,1,1,1,1,1
+process_resident_memory_bytes.smf,Process stats (from the NF),smf,1,1,1,1,1,1
+process_virtual_memory_bytes.amf,Process stats (from the NF),amf,1,1,1,1,1,1
+process_virtual_memory_bytes.smf,Process stats (from the NF),smf,1,1,1,1,1,1
+process_virtual_memory_max_bytes.amf,Process stats (from the NF),amf,1,1,1,1,1,1
+process_virtual_memory_max_bytes.smf,Process stats (from the NF),smf,1,1,1,1,1,1
+restarted.amf,Process stats (from the NF),amf,1,1,1,1,1,1
+restarted.smf,Process stats (from the NF),smf,1,1,1,1,1,1
+scrape_samples_post_metric_relabeling.upf,Scrape health,upf,1,2,5,1,1,5
+scrape_samples_scraped.upf,Scrape health,upf,1,2,5,1,1,5
+up.upf,Scrape health,upf,1,2,5,1,1,5
+scrape_duration_seconds.upf,Scrape health,upf,1,2,1,2,1,2
+scrape_series_added.upf,Scrape health,upf,1,2,1,1,1,2
+scrape_duration_seconds.amf,Scrape health,amf,1,1,1,1,1,1
+scrape_duration_seconds.smf,Scrape health,smf,1,1,1,1,1,1
+scrape_samples_post_metric_relabeling.amf,Scrape health,amf,1,1,1,1,1,1
+scrape_samples_post_metric_relabeling.smf,Scrape health,smf,1,1,1,1,1,1
+scrape_samples_scraped.amf,Scrape health,amf,1,1,1,1,1,1
+scrape_samples_scraped.smf,Scrape health,smf,1,1,1,1,1,1
+scrape_series_added.amf,Scrape health,amf,1,1,1,1,1,1
+scrape_series_added.smf,Scrape health,smf,1,1,1,1,1,1
+up.amf,Scrape health,amf,1,1,1,1,1,1
+up.smf,Scrape health,smf,1,1,1,1,1,1
+cpu.upf,Container CPU,upf,1,1,5,5,1,5
+cpu.amf,Container CPU,amf,1,1,1,1,1,1
+cpu.ausf,Container CPU,ausf,1,1,1,1,1,1
+cpu.bsf,Container CPU,bsf,1,1,1,1,1,1
+cpu.mongodb,Container CPU,mongodb,1,1,1,1,1,1
+cpu.n6-server,Container CPU,n6-server,1,1,1,1,1,1
+cpu.nrf,Container CPU,nrf,1,1,1,1,1,1
+cpu.nssf,Container CPU,nssf,1,1,1,1,1,1
+cpu.pcf,Container CPU,pcf,1,1,1,1,1,1
+cpu.populate,Container CPU,populate,1,1,1,1,1,1
+cpu.scp,Container CPU,scp,1,1,1,1,1,1
+cpu.smf,Container CPU,smf,1,1,1,1,1,1
+cpu.udm,Container CPU,udm,1,1,1,1,1,1
+cpu.udr,Container CPU,udr,1,1,1,1,1,1
+cpu.ueransim-gnb,Container CPU,ueransim-gnb,1,1,1,1,1,1
+cpu.ueransim-gnb-ues,Container CPU,ueransim-gnb-ues,1,1,1,1,1,1
+mem.upf,Container memory,upf,1,2,1,2,5,5
+mem.amf,Container memory,amf,1,1,1,1,1,1
+mem.ausf,Container memory,ausf,1,1,1,1,1,1
+mem.bsf,Container memory,bsf,1,1,1,1,1,1
+mem.mongodb,Container memory,mongodb,1,1,1,1,1,1
+mem.n6-server,Container memory,n6-server,1,1,1,1,1,1
+mem.nrf,Container memory,nrf,1,1,1,1,1,1
+mem.nssf,Container memory,nssf,1,1,1,1,1,1
+mem.pcf,Container memory,pcf,1,1,1,1,1,1
+mem.populate,Container memory,populate,1,1,1,1,1,1
+mem.scp,Container memory,scp,1,1,1,1,1,1
+mem.smf,Container memory,smf,1,1,1,1,1,1
+mem.udm,Container memory,udm,1,1,1,1,1,1
+mem.udr,Container memory,udr,1,1,1,1,1,1
+mem.ueransim-gnb,Container memory,ueransim-gnb,1,1,1,1,1,1
+mem.ueransim-gnb-ues,Container memory,ueransim-gnb-ues,1,1,1,1,1,1

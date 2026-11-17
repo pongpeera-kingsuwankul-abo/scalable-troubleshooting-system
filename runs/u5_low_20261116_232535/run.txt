@@ -1,0 +1,10 @@
+fault_id=U5
+severity=low
+fault_file=u5-n6-loss-delay.yaml
+start=2026-11-16T23:25:35Z
+onset=2026-11-16T23:27:40Z
+recovered=2026-11-16T23:29:40Z
+end=2026-11-16T23:31:40Z
+injected=True
+ue_pod=ueransim-gnb-ues-5b84cf7db9-cmmf5
+n6_ip=10.42.0.202

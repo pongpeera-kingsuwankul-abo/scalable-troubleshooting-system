@@ -1,0 +1,10 @@
+fault_id=U6
+severity=low
+fault_file=u6-upf-crash.yaml
+start=2026-11-16T17:35:27Z
+onset=2026-11-16T17:37:32Z
+recovered=2026-11-16T17:39:32Z
+end=2026-11-16T17:41:32Z
+injected=True
+ue_pod=ueransim-gnb-ues-7b5bd58b6f-wn9f5
+n6_ip=10.42.0.202

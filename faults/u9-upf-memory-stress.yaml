@@ -1,7 +1,8 @@
 # U9 — UPF memory stress / leak
 # Fills UPF memory. It slows, and at the limit the OOM killer
 # terminates it, which then looks like a crash.
-# Start with 128Mi; raise if UPF has more headroom.
+# Start with 128MB; raise if UPF has more headroom.
+# Chaos Mesh wants sizes like "128MB" or "25%"; it rejects the Kubernetes form "128Mi".
 apiVersion: chaos-mesh.org/v1alpha1
 kind: StressChaos
 metadata:
@@ -17,5 +18,5 @@ spec:
   stressors:
     memory:
       workers: 1
-      size: "128Mi"
+      size: "128MB"
   duration: "120s"

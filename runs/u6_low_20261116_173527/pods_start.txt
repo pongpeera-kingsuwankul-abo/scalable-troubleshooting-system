@@ -1,0 +1,18 @@
+NAME                                READY   STATUS      RESTARTS        AGE     IP            NODE             NOMINATED NODE   READINESS GATES
+curl-upf                            0/1     Completed   0               5d1h    <none>        open5gs-poc-tf   <none>           <none>
+n6-server-56f99bb598-rzkrz          1/1     Running     2 (5h27m ago)   5d1h    10.42.0.202   open5gs-poc-tf   <none>           <none>
+open5gs-amf-66b8f768cc-4pxbw        1/1     Running     1 (28h ago)     28h     10.42.0.187   open5gs-poc-tf   <none>           <none>
+open5gs-ausf-79899f74b9-jsxcn       1/1     Running     2 (5h27m ago)   5d1h    10.42.0.198   open5gs-poc-tf   <none>           <none>
+open5gs-bsf-d54b7668c-5282z         1/1     Running     2 (5h27m ago)   5d1h    10.42.0.193   open5gs-poc-tf   <none>           <none>
+open5gs-mongodb-75776fc7cd-twbfv    1/1     Running     2 (5h27m ago)   5d1h    10.42.0.200   open5gs-poc-tf   <none>           <none>
+open5gs-nrf-797bd9bfcf-s9gnm        1/1     Running     2 (5h27m ago)   5d1h    10.42.0.192   open5gs-poc-tf   <none>           <none>
+open5gs-nssf-74bffb89fc-qwfkc       1/1     Running     2 (5h27m ago)   5d1h    10.42.0.194   open5gs-poc-tf   <none>           <none>
+open5gs-pcf-55c4cfb94c-vsnkk        1/1     Running     4 (5h26m ago)   5d1h    10.42.0.185   open5gs-poc-tf   <none>           <none>
+open5gs-populate-7bb86ffb4b-bfl96   1/1     Running     2 (5h27m ago)   5d1h    10.42.0.206   open5gs-poc-tf   <none>           <none>
+open5gs-scp-5b74569cbb-h9qbv        1/1     Running     2 (5h27m ago)   5d1h    10.42.0.190   open5gs-poc-tf   <none>           <none>
+open5gs-smf-765cccdf85-dxqnx        1/1     Running     4 (5h26m ago)   3d17h   10.42.0.188   open5gs-poc-tf   <none>           <none>
+open5gs-udm-7c76dc8667-6x7rn        1/1     Running     2 (5h27m ago)   5d1h    10.42.0.204   open5gs-poc-tf   <none>           <none>
+open5gs-udr-64bc5799fb-7d9mj        1/1     Running     4 (5h26m ago)   5d1h    10.42.0.186   open5gs-poc-tf   <none>           <none>
+open5gs-upf-5667dc78f8-2pbfp        1/1     Running     0               3h11m   10.42.0.213   open5gs-poc-tf   <none>           <none>
+ueransim-gnb-644f8f6dc8-8vhmc       1/1     Running     0               3h6m    10.42.0.214   open5gs-poc-tf   <none>           <none>
+ueransim-gnb-ues-7b5bd58b6f-wn9f5   1/1     Running     0               3h6m    10.42.0.215   open5gs-poc-tf   <none>           <none>

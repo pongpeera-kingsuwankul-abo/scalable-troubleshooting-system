@@ -1,0 +1,22 @@
+first_seen,last_seen,namespace,type,reason,object,count,message
+2026-11-16T12:08:50Z,2026-11-16T23:44:03Z,open5gs,Warning,FailedGetScale,HorizontalPodAutoscaler/ueransim-gnb,2781,"statefulsets.apps ""ueransim-gnb"" not found"
+2026-11-16T12:09:19Z,2026-11-16T23:43:50Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-ausf,2777,failed to get cpu utilization: missing request for cpu in container open5gs-ausf of Pod open5gs-ausf-79899f74b9-jsxcn
+2026-11-16T12:09:19Z,2026-11-16T23:43:50Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-bsf,2777,failed to get cpu utilization: missing request for cpu in container open5gs-bsf of Pod open5gs-bsf-d54b7668c-5282z
+2026-11-16T12:09:19Z,2026-11-16T23:43:50Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-nrf,2777,failed to get cpu utilization: missing request for cpu in container open5gs-nrf of Pod open5gs-nrf-797bd9bfcf-s9gnm
+2026-11-16T12:09:19Z,2026-11-16T23:43:50Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-nssf,2777,failed to get cpu utilization: missing request for cpu in container open5gs-nssf of Pod open5gs-nssf-74bffb89fc-qwfkc
+2026-11-16T12:09:19Z,2026-11-16T23:43:50Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-scp,2777,failed to get cpu utilization: missing request for cpu in container open5gs-scp of Pod open5gs-scp-5b74569cbb-h9qbv
+2026-11-16T12:09:19Z,2026-11-16T23:43:50Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-udm,2777,failed to get cpu utilization: missing request for cpu in container open5gs-udm of Pod open5gs-udm-7c76dc8667-6x7rn
+2026-11-16T12:09:34Z,2026-11-16T23:43:50Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-pcf,2776,failed to get cpu utilization: missing request for cpu in container open5gs-pcf of Pod open5gs-pcf-55c4cfb94c-vsnkk
+2026-11-16T12:09:49Z,2026-11-16T23:44:05Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-udr,2776,failed to get cpu utilization: missing request for cpu in container open5gs-udr of Pod open5gs-udr-64bc5799fb-7d9mj
+2026-11-16T23:40:20Z,2026-11-16T23:40:20Z,open5gs,Normal,Applied,StressChaos/u9-upf-memory-stress,1,Successfully apply chaos for open5gs/open5gs-upf-5667dc78f8-qrqdh/open5gs-upf
+2026-11-16T23:40:20Z,2026-11-16T23:40:20Z,open5gs,Normal,FinalizerInited,StressChaos/u9-upf-memory-stress,1,Finalizer has been inited
+2026-11-16T23:40:20Z,2026-11-16T23:40:20Z,open5gs,Normal,Started,StressChaos/u9-upf-memory-stress,1,Experiment has started
+2026-11-16T23:40:20Z,2026-11-16T23:40:20Z,open5gs,Normal,Updated,StressChaos/u9-upf-memory-stress,1,Successfully update desiredPhase of resource
+2026-11-16T23:40:20Z,2026-11-16T23:40:20Z,open5gs,Normal,Updated,StressChaos/u9-upf-memory-stress,1,Successfully update finalizer of resource
+2026-11-16T23:40:20Z,2026-11-16T23:40:20Z,open5gs,Normal,Updated,StressChaos/u9-upf-memory-stress,1,Successfully update records of resource
+2026-11-16T23:42:20Z,2026-11-16T23:42:20Z,open5gs,Normal,FinalizerInited,StressChaos/u9-upf-memory-stress,1,Finalizer has been removed
+2026-11-16T23:42:20Z,2026-11-16T23:42:20Z,open5gs,Normal,Recovered,StressChaos/u9-upf-memory-stress,1,Successfully recover chaos for open5gs/open5gs-upf-5667dc78f8-qrqdh/open5gs-upf
+2026-11-16T23:42:20Z,2026-11-16T23:42:20Z,open5gs,Normal,TimeUp,StressChaos/u9-upf-memory-stress,1,Time up according to the duration
+2026-11-16T23:42:20Z,2026-11-16T23:42:20Z,open5gs,Normal,Updated,StressChaos/u9-upf-memory-stress,1,Successfully update desiredPhase of resource
+2026-11-16T23:42:20Z,2026-11-16T23:42:20Z,open5gs,Normal,Updated,StressChaos/u9-upf-memory-stress,1,Successfully update finalizer of resource
+2026-11-16T23:42:20Z,2026-11-16T23:42:20Z,open5gs,Normal,Updated,StressChaos/u9-upf-memory-stress,1,Successfully update records of resource

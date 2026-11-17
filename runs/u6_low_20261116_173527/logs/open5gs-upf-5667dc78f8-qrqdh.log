@@ -1,0 +1,17 @@
+2026-11-16T17:37:35.542117676Z Open5GS daemon v2.7.0
+2026-11-16T17:37:35.542166068Z 
+2026-11-16T17:37:35.542264614Z [32m11/16 17:37:35.542[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/opt/open5gs/etc/open5gs/upf.yaml' (../lib/app/ogs-init.c:130)
+2026-11-16T17:37:35.645722364Z [32m11/16 17:37:35.645[0m: [[33mmetrics[0m] [1;32mINFO[0m: metrics_server() [http://0.0.0.0]:9090 (../lib/metrics/prometheus/context.c:299)
+2026-11-16T17:37:35.645759926Z [32m11/16 17:37:35.645[0m: [[33mpfcp[0m] [1;32mINFO[0m: pfcp_server() [10.42.0.216]:8805 (../lib/pfcp/path.c:30)
+2026-11-16T17:37:35.645766267Z [32m11/16 17:37:35.645[0m: [[33mgtp[0m] [1;32mINFO[0m: gtp_server() [10.42.0.216]:2152 (../lib/gtp/path.c:30)
+2026-11-16T17:37:35.645964895Z [32m11/16 17:37:35.645[0m: [[33mapp[0m] [1;32mINFO[0m: UPF initialize...done (../src/upf/app.c:31)
+2026-11-16T17:37:35.790386156Z [32m11/16 17:37:35.790[0m: [[33mpfcp[0m] [1;32mINFO[0m: ogs_pfcp_connect() [10.42.0.188]:8805 (../lib/pfcp/path.c:61)
+2026-11-16T17:37:35.791577850Z [32m11/16 17:37:35.790[0m: [[33mupf[0m] [1;32mINFO[0m: PFCP associated [10.42.0.188]:8805 (../src/upf/pfcp-sm.c:184)
+2026-11-16T17:37:35.791596427Z [32m11/16 17:37:35.791[0m: [[33mupf[0m] [1;32mINFO[0m: [Added] Number of UPF-Sessions is now 1 (../src/upf/context.c:208)
+2026-11-16T17:37:35.791610224Z [32m11/16 17:37:35.791[0m: [[33mgtp[0m] [1;32mINFO[0m: gtp_connect() [10.42.0.214]:2152 (../lib/gtp/path.c:60)
+2026-11-16T17:37:35.791615794Z [32m11/16 17:37:35.791[0m: [[33mgtp[0m] [1;32mINFO[0m: gtp_connect() [10.42.0.188]:2152 (../lib/gtp/path.c:60)
+2026-11-16T17:37:35.791821042Z [32m11/16 17:37:35.791[0m: [[33mupf[0m] [1;32mINFO[0m: UE F-SEID[UP:0x282 CP:0x450] APN[internet] PDN-Type[1] IPv4[10.45.0.4] IPv6[] (../src/upf/context.c:485)
+2026-11-16T17:37:35.791830267Z [32m11/16 17:37:35.791[0m: [[33mupf[0m] [1;32mINFO[0m: UE F-SEID[UP:0x282 CP:0x450] APN[internet] PDN-Type[1] IPv4[10.45.0.4] IPv6[] (../src/upf/context.c:485)
+2026-11-16T17:37:35.791883232Z [32m11/16 17:37:35.791[0m: [[33mupf[0m] [1;32mINFO[0m: [Added] Number of UPF-Sessions is now 2 (../src/upf/context.c:208)
+2026-11-16T17:37:35.791888036Z [32m11/16 17:37:35.791[0m: [[33mupf[0m] [1;32mINFO[0m: UE F-SEID[UP:0xc40 CP:0x424] APN[internet] PDN-Type[1] IPv4[10.45.0.5] IPv6[] (../src/upf/context.c:485)
+2026-11-16T17:37:35.791891639Z [32m11/16 17:37:35.791[0m: [[33mupf[0m] [1;32mINFO[0m: UE F-SEID[UP:0xc40 CP:0x424] APN[internet] PDN-Type[1] IPv4[10.45.0.5] IPv6[] (../src/upf/context.c:485)

@@ -1,36 +1,32 @@
 # U5 — N6 loss / delay (UPF exit to the internet)
-# Adds 200ms latency + 30% packet loss on the UPF pod toward the n6-server.
-# This simulates the UPF's internet-side link degrading.
-
-# To run this experiment, you need to simulate ue first by running the following in another bash window:
-# kubectl -n open5gs exec deploy/ueransim-gnb-ues -- \
-#   ping -D -O -I uesimtun0 -i 0.5 10.45.0.10 | tee ping_log.txt
+# Adds 200ms latency + 30% packet loss on the N6 link between the UPF and
+# the data network (n6-server).
+#
+# The fault is injected at the n6-server end of the link, not on the UPF pod:
+# Chaos Mesh shapes only traffic a pod sends itself, and the UPF forwards
+# user traffic rather than sending it, so a rule on the UPF pod has no effect
+# on UE traffic (checked 2026-11-16: injected fine, ping unchanged).
+#
+# action "netem" is the Chaos Mesh action that combines delay and loss.
 apiVersion: chaos-mesh.org/v1alpha1
 kind: NetworkChaos
 metadata:
   name: u5-n6-loss-delay
   namespace: open5gs
 spec:
-  action: delay
+  action: netem
   mode: all
   selector:
     namespaces:
       - open5gs
     labelSelectors:
-      app.kubernetes.io/name: upf
+      app: n6-server
   delay:
     latency: "200ms"
     jitter: "20ms"
     correlation: "50"
   loss:
     loss: "30"
-    correlation: "50"
+    correlation: "0"
   direction: to
-  target:
-    mode: all
-    selector:
-      namespaces:
-        - open5gs
-      labelSelectors:
-        app: n6-server
   duration: "120s"

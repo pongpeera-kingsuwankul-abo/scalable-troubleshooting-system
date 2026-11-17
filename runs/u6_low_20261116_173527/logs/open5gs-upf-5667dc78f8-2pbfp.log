@@ -1,0 +1,6 @@
+2026-11-16T17:37:32.168010752Z [32m11/16 17:37:32.166[0m: [[33mapp[0m] [1;32mINFO[0m: SIGTERM received (../src/main.c:53)
+2026-11-16T17:37:32.168039428Z [32m11/16 17:37:32.166[0m: [[33mapp[0m] [1;32mINFO[0m: Open5GS daemon terminating... (../src/main.c:226)
+2026-11-16T17:37:32.168045737Z [32m11/16 17:37:32.167[0m: [[33mupf[0m] [1;32mINFO[0m: PFCP de-associated [10.42.0.188]:8805 (../src/upf/pfcp-sm.c:199)
+2026-11-16T17:37:32.168263886Z [32m11/16 17:37:32.168[0m: [[33mupf[0m] [1;32mINFO[0m: [Removed] Number of UPF-sessions is now 1 (../src/upf/context.c:252)
+2026-11-16T17:37:32.168283363Z [32m11/16 17:37:32.168[0m: [[33mupf[0m] [1;32mINFO[0m: [Removed] Number of UPF-sessions is now 0 (../src/upf/context.c:252)
+2026-11-16T17:37:32.172498835Z [32m11/16 17:37:32.170[0m: [[33mapp[0m] [1;32mINFO[0m: UPF terminate...done (../src/upf/app.c:39)
