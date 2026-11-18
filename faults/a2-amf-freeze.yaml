@@ -1,0 +1,17 @@
+# A2 HIGH - The AMF process is paused for 120 s (alive but doing nothing, like a hang), then resumed.
+# Run on the VM:  python3 run.py run experiments/a2-amf-freeze-high.yaml
+# Preview only:   python3 run.py plan experiments/a2-amf-freeze-high.yaml
+id: A2
+name: amf-freeze
+severity: high
+description: |
+  The AMF process is paused for 120 s (alive but doing nothing, like a hang), then resumed.
+  Uses 'sudo k3s ctr task pause' because Chaos Mesh pod-failure is a crash, not a freeze.
+  Kubernetes' liveness probe (TCP, 10 s x 5) usually does not notice.
+inject:
+  method: freeze
+  hold_s: 120
+validate:      # the run only counts as VALID if every required check passes
+  - {column: up.amf, expect: gap}
+  - {column: process_start_time_seconds.amf, expect: change, required: false}   # a long freeze can make Kubernetes restart the AMF
+  - {column: cp_ok, expect: fail, required: false}

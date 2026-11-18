@@ -1,0 +1,32 @@
+# A6 HIGH - Burns CPU inside the AMF (2 worker(s) at 100%) for 3 minutes. The AMF gets slow to answer.
+# Run on the VM:  python3 run.py run experiments/a6-amf-cpu-stress-high.yaml
+# Preview only:   python3 run.py plan experiments/a6-amf-cpu-stress-high.yaml
+id: A6
+name: amf-cpu-stress
+severity: high
+description: |
+  Burns CPU inside the AMF (2 worker(s) at 100%) for 3 minutes. The AMF gets slow to answer.
+inject:
+  method: chaos
+  hold_s: 180
+  manifest: |
+    apiVersion: chaos-mesh.org/v1alpha1
+    kind: StressChaos
+    metadata:
+      name: a6-amf-cpu-stress-high
+      namespace: open5gs
+    spec:
+      mode: all
+      selector:
+        namespaces:
+          - open5gs
+        labelSelectors:
+          app.kubernetes.io/name: amf
+      stressors:
+        cpu:
+          workers: 2
+          load: 100
+      duration: "180s"
+validate:      # the run only counts as VALID if every required check passes
+  - {column: cpu.amf, expect: rise, factor: 2, min_delta: 0.2}
+  - {column: cp_latency_s, expect: rise, factor: 1.5, min_delta: 0.3, required: false}

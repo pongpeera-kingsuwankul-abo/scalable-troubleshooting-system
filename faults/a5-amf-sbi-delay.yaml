@@ -1,0 +1,35 @@
+# A5 HIGH - Adds 3s delay to every packet the AMF sends (all AMF network traffic).
+# Run on the VM:  python3 run.py run experiments/a5-amf-sbi-delay-high.yaml
+# Preview only:   python3 run.py plan experiments/a5-amf-sbi-delay-high.yaml
+id: A5
+name: amf-sbi-delay
+severity: high
+description: |
+  Delays every packet the AMF sends (to the SCP/SMF/AUSF/UDM, to the gNB, DNS) - a slow or congested AMF network.
+  15 Nov: delaying only AMF->SCP left session setup untouched on this cluster, so the whole AMF egress is delayed.
+inject:
+  method: chaos
+  hold_s: 180
+  manifest: |
+    apiVersion: chaos-mesh.org/v1alpha1
+    kind: NetworkChaos
+    metadata:
+      name: a5-amf-sbi-delay-high
+      namespace: open5gs
+    spec:
+      action: delay
+      mode: all
+      selector:
+        namespaces:
+          - open5gs
+        labelSelectors:
+          app.kubernetes.io/name: amf
+      direction: to
+      delay:
+        latency: "3s"
+        jitter: "100ms"
+        correlation: "0"
+      duration: "180s"
+validate:      # the run only counts as VALID if every required check passes
+  - {column: cp_latency_s, expect: rise, factor: 1.2, min_delta: 0.3}
+  - {column: cp_ok, expect: fail, required: false}

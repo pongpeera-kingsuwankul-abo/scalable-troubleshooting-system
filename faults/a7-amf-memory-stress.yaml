@@ -1,0 +1,33 @@
+# A7 HIGH - Fills 300MB of memory inside the AMF for 3 minutes (AMF limit is 256 MiB). Above the limit, so the AMF is probably OOM-killed (looks like a crash).
+# Run on the VM:  python3 run.py run experiments/a7-amf-memory-stress-high.yaml
+# Preview only:   python3 run.py plan experiments/a7-amf-memory-stress-high.yaml
+id: A7
+name: amf-memory-stress
+severity: high
+description: |
+  Fills 300MB of memory inside the AMF for 3 minutes (AMF limit is 256 MiB). Above the limit, so the AMF is probably OOM-killed (looks like a crash).
+inject:
+  method: chaos
+  hold_s: 180
+  manifest: |
+    apiVersion: chaos-mesh.org/v1alpha1
+    kind: StressChaos
+    metadata:
+      name: a7-amf-memory-stress-high
+      namespace: open5gs
+    spec:
+      mode: all
+      selector:
+        namespaces:
+          - open5gs
+        labelSelectors:
+          app.kubernetes.io/name: amf
+      stressors:
+        memory:
+          workers: 1
+          size: "300MB"
+      duration: "180s"
+validate:      # the run only counts as VALID if every required check passes
+  - any_of:
+      - {column: mem.amf, expect: rise, factor: 1, min_delta: 50000000}
+      - {column: process_start_time_seconds.amf, expect: change}

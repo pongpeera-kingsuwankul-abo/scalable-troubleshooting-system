@@ -1,0 +1,30 @@
+# A1 HIGH - The AMF is down for 2 minutes (Chaos Mesh pod-failure: the container is swapped for an empty one), then comes back.
+# Run on the VM:  python3 run.py run experiments/a1-amf-crash-high.yaml
+# Preview only:   python3 run.py plan experiments/a1-amf-crash-high.yaml
+id: A1
+name: amf-crash
+severity: high
+description: |
+  The AMF is down for 2 minutes (Chaos Mesh pod-failure: the container is swapped for an empty one), then comes back.
+inject:
+  method: chaos
+  hold_s: 120
+  manifest: |
+    apiVersion: chaos-mesh.org/v1alpha1
+    kind: PodChaos
+    metadata:
+      name: a1-amf-crash-high
+      namespace: open5gs
+    spec:
+      action: pod-failure
+      mode: one
+      duration: "120s"
+      selector:
+        namespaces:
+          - open5gs
+        labelSelectors:
+          app.kubernetes.io/name: amf
+validate:      # the run only counts as VALID if every required check passes
+  - {column: up.amf, expect: gap}
+  - {column: gnb.amf, expect: drop}
+  - {column: cp_ok, expect: fail, required: false}
