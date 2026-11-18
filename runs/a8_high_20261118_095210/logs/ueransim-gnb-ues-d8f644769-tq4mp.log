@@ -1,0 +1,123 @@
+2026-11-18T09:55:31.765723566Z GNB_IP: 10.42.0.19
+2026-11-18T09:55:31.767113416Z Launching ue: nr-ue -c ue.yaml
+2026-11-18T09:55:31.770537536Z UERANSIM v3.2.6
+2026-11-18T09:55:31.771128328Z [2026-11-18 09:55:31.771] [999700000000002|nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+2026-11-18T09:55:31.771292216Z [2026-11-18 09:55:31.771] [999700000000001|nas] [info] UE switches to state [MM-DEREGISTERED/PLMN-SEARCH]
+2026-11-18T09:55:31.771606074Z [2026-11-18 09:55:31.771] [999700000000002|rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+2026-11-18T09:55:31.771620271Z [2026-11-18 09:55:31.771] [999700000000001|rrc] [debug] New signal detected for cell[1], total [1] cells in coverage
+2026-11-18T09:55:31.771971007Z [2026-11-18 09:55:31.771] [999700000000001|nas] [info] Selected plmn[999/70]
+2026-11-18T09:55:31.771980882Z [2026-11-18 09:55:31.771] [999700000000001|rrc] [info] Selected cell plmn[999/70] tac[1] category[SUITABLE]
+2026-11-18T09:55:31.772161219Z [2026-11-18 09:55:31.771] [999700000000001|nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+2026-11-18T09:55:31.772166134Z [2026-11-18 09:55:31.771] [999700000000001|nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+2026-11-18T09:55:31.772169105Z [2026-11-18 09:55:31.771] [999700000000001|nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+2026-11-18T09:55:31.772171397Z [2026-11-18 09:55:31.772] [999700000000001|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+2026-11-18T09:55:31.772173668Z [2026-11-18 09:55:31.772] [999700000000001|nas] [debug] Sending Initial Registration
+2026-11-18T09:55:31.772176278Z [2026-11-18 09:55:31.772] [999700000000001|nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+2026-11-18T09:55:31.772181172Z [2026-11-18 09:55:31.772] [999700000000001|rrc] [debug] Sending RRC Setup Request
+2026-11-18T09:55:31.772276464Z [2026-11-18 09:55:31.772] [999700000000002|nas] [info] Selected plmn[999/70]
+2026-11-18T09:55:31.772301407Z [2026-11-18 09:55:31.772] [999700000000002|rrc] [info] Selected cell plmn[999/70] tac[1] category[SUITABLE]
+2026-11-18T09:55:31.772304554Z [2026-11-18 09:55:31.772] [999700000000002|nas] [info] UE switches to state [MM-DEREGISTERED/PS]
+2026-11-18T09:55:31.772336107Z [2026-11-18 09:55:31.772] [999700000000002|nas] [info] UE switches to state [MM-DEREGISTERED/NORMAL-SERVICE]
+2026-11-18T09:55:31.772340162Z [2026-11-18 09:55:31.772] [999700000000002|nas] [debug] Initial registration required due to [MM-DEREG-NORMAL-SERVICE]
+2026-11-18T09:55:31.772998169Z [2026-11-18 09:55:31.772] [999700000000001|rrc] [info] RRC connection established
+2026-11-18T09:55:31.773011179Z [2026-11-18 09:55:31.772] [999700000000001|rrc] [info] UE switches to state [RRC-CONNECTED]
+2026-11-18T09:55:31.773013940Z [2026-11-18 09:55:31.772] [999700000000001|nas] [info] UE switches to state [CM-CONNECTED]
+2026-11-18T09:55:31.774561017Z [2026-11-18 09:55:31.774] [999700000000002|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+2026-11-18T09:55:31.774570689Z [2026-11-18 09:55:31.774] [999700000000002|nas] [debug] Sending Initial Registration
+2026-11-18T09:55:31.774574096Z [2026-11-18 09:55:31.774] [999700000000002|nas] [info] UE switches to state [MM-REGISTER-INITIATED]
+2026-11-18T09:55:31.775959878Z [2026-11-18 09:55:31.774] [999700000000002|rrc] [debug] Sending RRC Setup Request
+2026-11-18T09:55:31.777187022Z [2026-11-18 09:55:31.777] [999700000000002|rrc] [info] RRC connection established
+2026-11-18T09:55:31.777202035Z [2026-11-18 09:55:31.777] [999700000000002|rrc] [info] UE switches to state [RRC-CONNECTED]
+2026-11-18T09:55:31.777235745Z [2026-11-18 09:55:31.777] [999700000000002|nas] [info] UE switches to state [CM-CONNECTED]
+2026-11-18T09:55:31.787127041Z [2026-11-18 09:55:31.787] [999700000000001|nas] [debug] Authentication Request received
+2026-11-18T09:55:31.795102073Z [2026-11-18 09:55:31.795] [999700000000002|nas] [debug] Authentication Request received
+2026-11-18T09:55:31.798359959Z [2026-11-18 09:55:31.798] [999700000000001|nas] [debug] Security Mode Command received
+2026-11-18T09:55:31.798390674Z [2026-11-18 09:55:31.798] [999700000000001|nas] [debug] Selected integrity[2] ciphering[0]
+2026-11-18T09:55:31.801558496Z [2026-11-18 09:55:31.801] [999700000000002|nas] [debug] Security Mode Command received
+2026-11-18T09:55:31.801567278Z [2026-11-18 09:55:31.801] [999700000000002|nas] [debug] Selected integrity[2] ciphering[0]
+2026-11-18T09:55:31.809585831Z [2026-11-18 09:55:31.809] [999700000000001|nas] [debug] Registration accept received
+2026-11-18T09:55:31.809599083Z [2026-11-18 09:55:31.809] [999700000000001|nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+2026-11-18T09:55:31.809603195Z [2026-11-18 09:55:31.809] [999700000000001|nas] [debug] Sending Registration Complete
+2026-11-18T09:55:31.809613258Z [2026-11-18 09:55:31.809] [999700000000001|nas] [info] Initial Registration is successful
+2026-11-18T09:55:31.809624346Z [2026-11-18 09:55:31.809] [999700000000001|nas] [debug] Sending PDU Session Establishment Request
+2026-11-18T09:55:31.809651707Z [2026-11-18 09:55:31.809] [999700000000001|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+2026-11-18T09:55:31.818523670Z [2026-11-18 09:55:31.818] [999700000000001|nas] [debug] Configuration Update Command received
+2026-11-18T09:55:31.818536717Z [2026-11-18 09:55:31.818] [999700000000002|nas] [debug] Registration accept received
+2026-11-18T09:55:31.818539879Z [2026-11-18 09:55:31.818] [999700000000002|nas] [info] UE switches to state [MM-REGISTERED/NORMAL-SERVICE]
+2026-11-18T09:55:31.818548432Z [2026-11-18 09:55:31.818] [999700000000002|nas] [debug] Sending Registration Complete
+2026-11-18T09:55:31.818553476Z [2026-11-18 09:55:31.818] [999700000000002|nas] [info] Initial Registration is successful
+2026-11-18T09:55:31.818558454Z [2026-11-18 09:55:31.818] [999700000000002|nas] [debug] Sending PDU Session Establishment Request
+2026-11-18T09:55:31.818622750Z [2026-11-18 09:55:31.818] [999700000000002|nas] [debug] UAC access attempt is allowed for identity[0], category[MO_sig]
+2026-11-18T09:55:31.846514516Z [2026-11-18 09:55:31.844] [999700000000002|nas] [debug] Configuration Update Command received
+2026-11-18T09:55:31.846528522Z [2026-11-18 09:55:31.844] [999700000000001|nas] [debug] PDU Session Establishment Accept received
+2026-11-18T09:55:31.846533354Z [2026-11-18 09:55:31.844] [999700000000001|nas] [info] PDU Session establishment is successful PSI[1]
+2026-11-18T09:55:31.871937526Z [2026-11-18 09:55:31.870] [999700000000001|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun0, 10.45.0.12] is up.
+2026-11-18T09:55:31.881079189Z [2026-11-18 09:55:31.879] [999700000000002|nas] [debug] PDU Session Establishment Accept received
+2026-11-18T09:55:31.881091573Z [2026-11-18 09:55:31.879] [999700000000002|nas] [info] PDU Session establishment is successful PSI[1]
+2026-11-18T09:55:31.890882196Z [2026-11-18 09:55:31.890] [999700000000002|app] [info] Connection setup for PDU session[1] is successful, TUN interface[uesimtun1, 10.45.0.13] is up.
+2026-11-18T09:55:39.856495494Z [2026-11-18 09:55:39.856] [999700000000001|rrc] [debug] Signal lost for cell[1], total [0] cells in coverage
+2026-11-18T09:55:39.856530565Z [2026-11-18 09:55:39.856] [999700000000001|nas] [error] Radio link failure detected
+2026-11-18T09:55:39.856533311Z [2026-11-18 09:55:39.856] [999700000000001|nas] [info] UE switches to state [CM-IDLE]
+2026-11-18T09:55:39.856535773Z [2026-11-18 09:55:39.856] [999700000000001|nas] [info] UE switches to state [MM-REGISTERED/PS]
+2026-11-18T09:55:39.856553450Z [2026-11-18 09:55:39.856] [999700000000001|nas] [info] UE switches to state [MM-REGISTERED/PLMN-SEARCH]
+2026-11-18T09:55:39.856555939Z [2026-11-18 09:55:39.856] [999700000000001|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:55:39.889474229Z [2026-11-18 09:55:39.889] [999700000000002|rrc] [debug] Signal lost for cell[1], total [0] cells in coverage
+2026-11-18T09:55:39.889493281Z [2026-11-18 09:55:39.889] [999700000000002|nas] [error] Radio link failure detected
+2026-11-18T09:55:39.889497412Z [2026-11-18 09:55:39.889] [999700000000002|nas] [info] UE switches to state [CM-IDLE]
+2026-11-18T09:55:39.889500891Z [2026-11-18 09:55:39.889] [999700000000002|nas] [info] UE switches to state [MM-REGISTERED/PS]
+2026-11-18T09:55:39.889504700Z [2026-11-18 09:55:39.889] [999700000000002|nas] [info] UE switches to state [MM-REGISTERED/PLMN-SEARCH]
+2026-11-18T09:55:39.889509047Z [2026-11-18 09:55:39.889] [999700000000002|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:55:41.774250649Z [2026-11-18 09:55:41.774] [999700000000002|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:55:41.774295948Z [2026-11-18 09:55:41.774] [999700000000002|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:55:41.775083035Z [2026-11-18 09:55:41.775] [999700000000001|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:55:41.775088527Z [2026-11-18 09:55:41.775] [999700000000001|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:55:42.780180917Z [2026-11-18 09:55:42.780] [999700000000002|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:55:42.781091909Z [2026-11-18 09:55:42.781] [999700000000001|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:55:44.982113165Z [2026-11-18 09:55:44.982] [999700000000002|nas] [info] UE switches to state [MM-REGISTERED/NO-CELL-AVAILABLE]
+2026-11-18T09:55:44.983147917Z [2026-11-18 09:55:44.983] [999700000000001|nas] [info] UE switches to state [MM-REGISTERED/NO-CELL-AVAILABLE]
+2026-11-18T09:56:11.786230634Z [2026-11-18 09:56:11.786] [999700000000002|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:56:11.786278150Z [2026-11-18 09:56:11.786] [999700000000002|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:56:11.787111947Z [2026-11-18 09:56:11.787] [999700000000001|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:56:11.787130898Z [2026-11-18 09:56:11.787] [999700000000001|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:56:13.608291456Z [2026-11-18 09:56:13.608] [999700000000002|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:56:13.609092505Z [2026-11-18 09:56:13.609] [999700000000001|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:56:41.798238444Z [2026-11-18 09:56:41.798] [999700000000002|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:56:41.798282379Z [2026-11-18 09:56:41.798] [999700000000002|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:56:41.799109331Z [2026-11-18 09:56:41.799] [999700000000001|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:56:41.799125644Z [2026-11-18 09:56:41.799] [999700000000001|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:56:44.436198684Z [2026-11-18 09:56:44.436] [999700000000002|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:56:44.437092089Z [2026-11-18 09:56:44.437] [999700000000001|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:57:11.810212957Z [2026-11-18 09:57:11.810] [999700000000002|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:57:11.810271198Z [2026-11-18 09:57:11.810] [999700000000002|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:57:11.811075819Z [2026-11-18 09:57:11.811] [999700000000001|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:57:11.811092462Z [2026-11-18 09:57:11.811] [999700000000001|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:57:15.265187673Z [2026-11-18 09:57:15.265] [999700000000001|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:57:15.265223650Z [2026-11-18 09:57:15.265] [999700000000002|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:57:41.822189364Z [2026-11-18 09:57:41.822] [999700000000002|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:57:41.822223820Z [2026-11-18 09:57:41.822] [999700000000002|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:57:41.823114095Z [2026-11-18 09:57:41.823] [999700000000001|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:57:41.823119334Z [2026-11-18 09:57:41.823] [999700000000001|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:57:46.093209689Z [2026-11-18 09:57:46.093] [999700000000001|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:57:46.093268708Z [2026-11-18 09:57:46.093] [999700000000002|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:58:11.834191687Z [2026-11-18 09:58:11.834] [999700000000002|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:58:11.834234225Z [2026-11-18 09:58:11.834] [999700000000002|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:58:11.835244281Z [2026-11-18 09:58:11.835] [999700000000001|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:58:11.835261098Z [2026-11-18 09:58:11.835] [999700000000001|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:58:16.921144312Z [2026-11-18 09:58:16.921] [999700000000002|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:58:16.921180293Z [2026-11-18 09:58:16.921] [999700000000001|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:58:41.846301470Z [2026-11-18 09:58:41.846] [999700000000002|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:58:41.846343550Z [2026-11-18 09:58:41.846] [999700000000002|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:58:41.847131428Z [2026-11-18 09:58:41.847] [999700000000001|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:58:41.847154911Z [2026-11-18 09:58:41.847] [999700000000001|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:58:47.749140758Z [2026-11-18 09:58:47.749] [999700000000001|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:58:47.749224781Z [2026-11-18 09:58:47.749] [999700000000002|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:59:11.860386382Z [2026-11-18 09:59:11.860] [999700000000002|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:59:11.860418884Z [2026-11-18 09:59:11.860] [999700000000002|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:59:11.860421731Z [2026-11-18 09:59:11.860] [999700000000001|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:59:11.860438628Z [2026-11-18 09:59:11.860] [999700000000001|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:59:18.577208442Z [2026-11-18 09:59:18.577] [999700000000001|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:59:18.578136434Z [2026-11-18 09:59:18.578] [999700000000002|nas] [error] PLMN selection failure, no cells in coverage
+2026-11-18T09:59:41.872178743Z [2026-11-18 09:59:41.872] [999700000000002|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:59:41.872220031Z [2026-11-18 09:59:41.872] [999700000000002|rrc] [error] Cell selection failure, no suitable or acceptable cell found
+2026-11-18T09:59:41.872222919Z [2026-11-18 09:59:41.872] [999700000000001|rrc] [warning] Acceptable cell selection failed, no cell is in coverage
+2026-11-18T09:59:41.872226156Z [2026-11-18 09:59:41.872] [999700000000001|rrc] [error] Cell selection failure, no suitable or acceptable cell found

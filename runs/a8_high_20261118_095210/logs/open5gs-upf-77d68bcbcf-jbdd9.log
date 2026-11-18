@@ -1,0 +1,8 @@
+2026-11-18T09:55:31.778234898Z [32m11/18 09:55:31.777[0m: [[33mupf[0m] [1;32mINFO[0m: [Removed] Number of UPF-sessions is now 5 (../src/upf/context.c:252)
+2026-11-18T09:55:31.789365577Z [32m11/18 09:55:31.789[0m: [[33mupf[0m] [1;32mINFO[0m: [Removed] Number of UPF-sessions is now 4 (../src/upf/context.c:252)
+2026-11-18T09:55:31.835845849Z [32m11/18 09:55:31.834[0m: [[33mupf[0m] [1;32mINFO[0m: [Added] Number of UPF-Sessions is now 5 (../src/upf/context.c:208)
+2026-11-18T09:55:31.835858628Z [32m11/18 09:55:31.834[0m: [[33mupf[0m] [1;32mINFO[0m: UE F-SEID[UP:0xdc1 CP:0x627] APN[internet] PDN-Type[1] IPv4[10.45.0.12] IPv6[] (../src/upf/context.c:485)
+2026-11-18T09:55:31.835862373Z [32m11/18 09:55:31.834[0m: [[33mupf[0m] [1;32mINFO[0m: UE F-SEID[UP:0xdc1 CP:0x627] APN[internet] PDN-Type[1] IPv4[10.45.0.12] IPv6[] (../src/upf/context.c:485)
+2026-11-18T09:55:31.874620969Z [32m11/18 09:55:31.873[0m: [[33mupf[0m] [1;32mINFO[0m: [Added] Number of UPF-Sessions is now 6 (../src/upf/context.c:208)
+2026-11-18T09:55:31.874641624Z [32m11/18 09:55:31.874[0m: [[33mupf[0m] [1;32mINFO[0m: UE F-SEID[UP:0xc35 CP:0xa77] APN[internet] PDN-Type[1] IPv4[10.45.0.13] IPv6[] (../src/upf/context.c:485)
+2026-11-18T09:55:31.874645520Z [32m11/18 09:55:31.874[0m: [[33mupf[0m] [1;32mINFO[0m: UE F-SEID[UP:0xc35 CP:0xa77] APN[internet] PDN-Type[1] IPv4[10.45.0.13] IPv6[] (../src/upf/context.c:485)

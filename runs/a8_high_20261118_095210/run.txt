@@ -1,0 +1,11 @@
+fault_id=A8
+severity=high
+fault_file=a8-amf-misconfig-high.yaml
+hold_s=180
+start=2026-11-18T09:52:10Z
+onset=2026-11-18T09:55:31Z
+recovered=2026-11-18T10:02:00Z
+end=2026-11-18T10:04:00Z
+injected=
+ue_pod=ueransim-gnb-ues-5b84cf7db9-wt75d
+n6_ip=10.42.0.248

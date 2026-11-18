@@ -1,0 +1,11 @@
+fault_id=A6
+severity=high
+fault_file=a6-amf-cpu-stress-high.yaml
+hold_s=180
+start=2026-11-18T00:15:11Z
+onset=2026-11-18T00:17:16Z
+recovered=2026-11-18T00:20:16Z
+end=2026-11-18T00:22:16Z
+injected=True
+ue_pod=ueransim-gnb-ues-5b84cf7db9-cf88c
+n6_ip=10.42.0.248

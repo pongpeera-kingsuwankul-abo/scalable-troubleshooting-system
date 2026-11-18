@@ -1,0 +1,11 @@
+fault_id=A7
+severity=high
+fault_file=a7-amf-memory-stress-high.yaml
+hold_s=180
+start=2026-11-18T00:23:31Z
+onset=2026-11-18T00:25:36Z
+recovered=2026-11-18T00:28:36Z
+end=2026-11-18T00:30:36Z
+injected=True
+ue_pod=ueransim-gnb-ues-5b84cf7db9-ks8dv
+n6_ip=10.42.0.248

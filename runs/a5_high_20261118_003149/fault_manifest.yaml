@@ -1,0 +1,19 @@
+apiVersion: chaos-mesh.org/v1alpha1
+kind: NetworkChaos
+metadata:
+  name: a5-amf-sbi-delay-high
+  namespace: open5gs
+spec:
+  action: delay
+  mode: all
+  selector:
+    namespaces:
+      - open5gs
+    labelSelectors:
+      app.kubernetes.io/name: amf
+  direction: to
+  delay:
+    latency: "3s"
+    jitter: "100ms"
+    correlation: "0"
+  duration: "180s"

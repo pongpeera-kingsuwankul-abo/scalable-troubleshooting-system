@@ -1,0 +1,31 @@
+first_seen,last_seen,namespace,type,reason,object,count,message
+2026-11-17T15:18:13Z,2026-11-18T01:53:26Z,open5gs,Warning,FailedGetScale,HorizontalPodAutoscaler/ueransim-gnb,2538,"statefulsets.apps ""ueransim-gnb"" not found"
+2026-11-17T15:19:28Z,2026-11-18T01:54:26Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-ausf,2539,failed to get cpu utilization: missing request for cpu in container open5gs-ausf of Pod open5gs-ausf-79899f74b9-jsxcn
+2026-11-17T15:19:28Z,2026-11-18T01:54:26Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-bsf,2539,failed to get cpu utilization: missing request for cpu in container open5gs-bsf of Pod open5gs-bsf-d54b7668c-5282z
+2026-11-17T15:19:28Z,2026-11-18T01:54:26Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-nrf,2539,failed to get cpu utilization: missing request for cpu in container open5gs-nrf of Pod open5gs-nrf-797bd9bfcf-s9gnm
+2026-11-17T15:19:28Z,2026-11-18T01:54:26Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-nssf,2539,failed to get cpu utilization: missing request for cpu in container open5gs-nssf of Pod open5gs-nssf-74bffb89fc-qwfkc
+2026-11-17T15:19:28Z,2026-11-18T01:54:26Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-scp,2539,failed to get cpu utilization: missing request for cpu in container open5gs-scp of Pod open5gs-scp-5b74569cbb-h9qbv
+2026-11-17T15:19:28Z,2026-11-18T01:54:26Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-udm,2539,failed to get cpu utilization: missing request for cpu in container open5gs-udm of Pod open5gs-udm-7c76dc8667-6x7rn
+2026-11-17T15:19:28Z,2026-11-18T01:54:26Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-udr,2539,failed to get cpu utilization: missing request for cpu in container open5gs-udr of Pod open5gs-udr-64bc5799fb-7d9mj
+2026-11-17T15:19:43Z,2026-11-18T01:54:26Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-pcf,2538,failed to get cpu utilization: missing request for cpu in container open5gs-pcf of Pod open5gs-pcf-55c4cfb94c-vsnkk
+2026-11-18T00:01:14Z,2026-11-18T01:54:42Z,open5gs,Normal,Pulled,Pod/open5gs-amf-68b4c5585c-svs96,3,"Container image ""docker.io/gradiant/open5gs:2.7.0"" already present on machine and can be accessed by the pod"
+2026-11-18T00:01:15Z,2026-11-18T01:54:43Z,open5gs,Normal,Created,Pod/open5gs-amf-68b4c5585c-svs96,4,Container created
+2026-11-18T00:01:15Z,2026-11-18T01:54:44Z,open5gs,Normal,Started,Pod/open5gs-amf-68b4c5585c-svs96,4,Container started
+2026-11-18T01:52:42Z,2026-11-18T01:52:42Z,open5gs,Normal,Applied,PodChaos/a1-amf-crash-high,1,Successfully apply chaos for open5gs/open5gs-amf-68b4c5585c-svs96
+2026-11-18T01:52:42Z,2026-11-18T01:52:42Z,open5gs,Normal,FinalizerInited,PodChaos/a1-amf-crash-high,1,Finalizer has been inited
+2026-11-18T01:52:42Z,2026-11-18T01:52:42Z,open5gs,Normal,Started,PodChaos/a1-amf-crash-high,1,Experiment has started
+2026-11-18T01:52:42Z,2026-11-18T01:52:42Z,open5gs,Normal,Updated,PodChaos/a1-amf-crash-high,1,Successfully update desiredPhase of resource
+2026-11-18T01:52:42Z,2026-11-18T01:52:42Z,open5gs,Normal,Updated,PodChaos/a1-amf-crash-high,1,Successfully update finalizer of resource
+2026-11-18T01:52:42Z,2026-11-18T01:52:42Z,open5gs,Normal,Updated,PodChaos/a1-amf-crash-high,1,Successfully update records of resource
+2026-11-18T01:52:42Z,2026-11-18T01:54:42Z,open5gs,Normal,Killing,Pod/open5gs-amf-68b4c5585c-svs96,2,"Container open5gs-amf definition changed, will be restarted"
+2026-11-18T01:53:13Z,2026-11-18T01:53:13Z,open5gs,Normal,Pulled,Pod/open5gs-amf-68b4c5585c-svs96,1,"Container image ""gcr.io/google-containers/pause:latest"" already present on machine and can be accessed by the pod"
+2026-11-18T01:53:13Z,2026-11-18T01:53:13Z,open5gs,Warning,Unhealthy,Pod/open5gs-amf-68b4c5585c-svs96,1,Liveness probe failed: dial tcp 10.42.0.10:7777: connect: connection refused
+2026-11-18T01:53:26Z,2026-11-18T01:54:56Z,open5gs,Warning,FailedComputeMetricsReplicas,HorizontalPodAutoscaler/open5gs-amf,2,"invalid metrics (1 invalid out of 1), first error is: failed to get cpu resource metric value: failed to get cpu utilization: unable to get metrics for resource cpu: no metrics returned from resource metrics API"
+2026-11-18T01:53:26Z,2026-11-18T01:54:56Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-amf,2,failed to get cpu utilization: unable to get metrics for resource cpu: no metrics returned from resource metrics API
+2026-11-18T01:53:44Z,2026-11-18T01:54:42Z,open5gs,Warning,Unhealthy,Pod/open5gs-amf-68b4c5585c-svs96,14,Readiness probe failed: dial tcp 10.42.0.10:7777: connect: connection refused
+2026-11-18T01:54:42Z,2026-11-18T01:54:42Z,open5gs,Normal,Recovered,PodChaos/a1-amf-crash-high,1,Successfully recover chaos for open5gs/open5gs-amf-68b4c5585c-svs96
+2026-11-18T01:54:42Z,2026-11-18T01:54:42Z,open5gs,Normal,TimeUp,PodChaos/a1-amf-crash-high,1,Time up according to the duration
+2026-11-18T01:54:42Z,2026-11-18T01:54:42Z,open5gs,Normal,Updated,PodChaos/a1-amf-crash-high,1,Successfully update desiredPhase of resource
+2026-11-18T01:54:42Z,2026-11-18T01:54:42Z,open5gs,Normal,Updated,PodChaos/a1-amf-crash-high,1,Successfully update records of resource
+2026-11-18T01:54:43Z,2026-11-18T01:54:43Z,open5gs,Normal,FinalizerInited,PodChaos/a1-amf-crash-high,1,Finalizer has been removed
+2026-11-18T01:54:43Z,2026-11-18T01:54:43Z,open5gs,Normal,Updated,PodChaos/a1-amf-crash-high,1,Successfully update finalizer of resource

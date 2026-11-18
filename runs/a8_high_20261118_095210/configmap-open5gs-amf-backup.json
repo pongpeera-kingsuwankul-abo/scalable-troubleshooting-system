@@ -1,0 +1,24 @@
+{
+ "apiVersion": "v1",
+ "data": {
+  "amf.yaml": "logger:\n  level: info\nglobal: null\namf:\n  sbi:\n    server:\n    - dev: eth0\n      port: 7777\n    client:\n      scp:\n      - uri: http://open5gs-scp-sbi:7777\n  ngap:\n    server:\n    - dev: eth0\n  guami:\n  - amf_id:\n      region: 2\n      set: 1\n    plmn_id:\n      mcc: '999'\n      mnc: '70'\n  tai:\n  - plmn_id:\n      mcc: '999'\n      mnc: '70'\n    tac:\n    - 1\n  plmn_support:\n  - plmn_id:\n      mcc: '999'\n      mnc: '70'\n    s_nssai:\n    - sd: '0x111111'\n      sst: 1\n  security:\n    integrity_order:\n    - NIA2\n    - NIA1\n    - NIA0\n    ciphering_order:\n    - NEA0\n    - NEA1\n    - NEA2\n  network_name:\n    full: Gradiant\n  amf_name: open5gs-amf\n  time:\n    t3512:\n      value: 540\n  metrics:\n    server:\n    - address: 0.0.0.0\n      port: 9090\n"
+ },
+ "kind": "ConfigMap",
+ "metadata": {
+  "annotations": {
+   "meta.helm.sh/release-name": "open5gs",
+   "meta.helm.sh/release-namespace": "open5gs"
+  },
+  "creationTimestamp": "2026-11-11T16:16:03Z",
+  "labels": {
+   "app.kubernetes.io/instance": "open5gs",
+   "app.kubernetes.io/managed-by": "Helm",
+   "app.kubernetes.io/name": "amf",
+   "helm.sh/chart": "amf-2.2.0"
+  },
+  "name": "open5gs-amf",
+  "namespace": "open5gs",
+  "resourceVersion": "179326",
+  "uid": "2fc79629-a846-4f79-858d-b84b0fcda949"
+ }
+}

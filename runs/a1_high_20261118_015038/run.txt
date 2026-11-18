@@ -1,0 +1,11 @@
+fault_id=A1
+severity=high
+fault_file=a1-amf-crash-high.yaml
+hold_s=120
+start=2026-11-18T01:50:38Z
+onset=2026-11-18T01:52:42Z
+recovered=2026-11-18T01:54:43Z
+end=2026-11-18T01:56:43Z
+injected=True
+ue_pod=ueransim-gnb-ues-5b84cf7db9-2zwkm
+n6_ip=10.42.0.248

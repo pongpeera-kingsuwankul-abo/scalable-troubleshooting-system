@@ -1,0 +1,16 @@
+2026-11-18T09:54:32.863325820Z Open5GS daemon v2.7.0
+2026-11-18T09:54:32.863364971Z 
+2026-11-18T09:54:32.863409180Z [32m11/18 09:54:32.863[0m: [[33mapp[0m] [1;32mINFO[0m: Configuration: '/opt/open5gs/etc/open5gs/amf.yaml' (../lib/app/ogs-init.c:130)
+2026-11-18T09:54:32.867741067Z [32m11/18 09:54:32.867[0m: [[33mmetrics[0m] [1;32mINFO[0m: metrics_server() [http://0.0.0.0]:9090 (../lib/metrics/prometheus/context.c:299)
+2026-11-18T09:54:32.867756675Z [32m11/18 09:54:32.867[0m: [[33msbi[0m] [1;32mINFO[0m: NF Service [namf-comm] (../lib/sbi/context.c:1812)
+2026-11-18T09:54:32.869175922Z [32m11/18 09:54:32.868[0m: [[33msbi[0m] [1;32mINFO[0m: nghttp2_server() [http://10.42.0.21]:7777 (../lib/sbi/nghttp2-server.c:414)
+2026-11-18T09:54:32.869190082Z [32m11/18 09:54:32.868[0m: [[33mamf[0m] [1;32mINFO[0m: ngap_server() [10.42.0.21]:38412 (../src/amf/ngap-sctp.c:61)
+2026-11-18T09:54:32.869194360Z [32m11/18 09:54:32.868[0m: [[33msctp[0m] [1;32mINFO[0m: AMF initialize...done (../src/amf/app.c:33)
+2026-11-18T09:54:32.875122564Z [32m11/18 09:54:32.875[0m: [[33msbi[0m] [1;32mINFO[0m: [0e0cda12-e336-41f1-98e5-d1b13b644f72] NF registered [Heartbeat:10s] (../lib/sbi/nf-sm.c:221)
+2026-11-18T09:54:32.887354550Z [32m11/18 09:54:32.887[0m: [[33msbi[0m] [1;32mINFO[0m: [0e0f3582-e336-41f1-9e16-a1a1e0fef209] Subscription created until 2026-11-19T09:54:32.881318+00:00 [duration:86400,validity:86399.994161,patch:43199.997080] (../lib/sbi/nnrf-handler.c:708)
+2026-11-18T09:54:32.887851248Z [32m11/18 09:54:32.887[0m: [[33msbi[0m] [1;32mINFO[0m: [0e0f3ece-e336-41f1-9e16-a1a1e0fef209] Subscription created until 2026-11-19T09:54:32.881540+00:00 [duration:86400,validity:86399.994168,patch:43199.997084] (../lib/sbi/nnrf-handler.c:708)
+2026-11-18T09:54:32.887862674Z [32m11/18 09:54:32.887[0m: [[33msbi[0m] [1;32mINFO[0m: [0e0f4108-e336-41f1-9e16-a1a1e0fef209] Subscription created until 2026-11-19T09:54:32.881593+00:00 [duration:86400,validity:86399.994047,patch:43199.997023] (../lib/sbi/nnrf-handler.c:708)
+2026-11-18T09:54:32.887865636Z [32m11/18 09:54:32.887[0m: [[33msbi[0m] [1;32mINFO[0m: [0e0f434c-e336-41f1-9e16-a1a1e0fef209] Subscription created until 2026-11-19T09:54:32.881651+00:00 [duration:86400,validity:86399.993995,patch:43199.996997] (../lib/sbi/nnrf-handler.c:708)
+2026-11-18T09:54:32.887868061Z [32m11/18 09:54:32.887[0m: [[33msbi[0m] [1;32mINFO[0m: [0e0f4cca-e336-41f1-9e16-a1a1e0fef209] Subscription created until 2026-11-19T09:54:32.881896+00:00 [duration:86400,validity:86399.994107,patch:43199.997053] (../lib/sbi/nnrf-handler.c:708)
+2026-11-18T09:54:32.888298496Z [32m11/18 09:54:32.887[0m: [[33msbi[0m] [1;32mINFO[0m: [0e0f4ebe-e336-41f1-9e16-a1a1e0fef209] Subscription created until 2026-11-19T09:54:32.881944+00:00 [duration:86400,validity:86399.994036,patch:43199.997018] (../lib/sbi/nnrf-handler.c:708)
+2026-11-18T09:54:32.888307472Z [32m11/18 09:54:32.888[0m: [[33msbi[0m] [1;32mINFO[0m: [0e0f5058-e336-41f1-9e16-a1a1e0fef209] Subscription created until 2026-11-19T09:54:32.881985+00:00 [duration:86400,validity:86399.993897,patch:43199.996948] (../lib/sbi/nnrf-handler.c:708)

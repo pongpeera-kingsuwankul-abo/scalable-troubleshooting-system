@@ -1,0 +1,11 @@
+fault_id=A5
+severity=high
+fault_file=a5-amf-sbi-delay-high.yaml
+hold_s=180
+start=2026-11-18T00:31:49Z
+onset=2026-11-18T00:33:53Z
+recovered=2026-11-18T00:36:54Z
+end=2026-11-18T00:38:54Z
+injected=True
+ue_pod=ueransim-gnb-ues-5b84cf7db9-gxq2f
+n6_ip=10.42.0.248

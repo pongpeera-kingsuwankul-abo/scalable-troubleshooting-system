@@ -1,0 +1,28 @@
+2026-11-18T09:55:31.771726020Z [2026-11-18 09:55:31.771] [rrc] [debug] UE[3] new signal detected
+2026-11-18T09:55:31.771746142Z [2026-11-18 09:55:31.771] [rrc] [debug] UE[4] new signal detected
+2026-11-18T09:55:31.772560765Z [2026-11-18 09:55:31.772] [rrc] [info] RRC Setup for UE[4]
+2026-11-18T09:55:31.773057844Z [2026-11-18 09:55:31.773] [ngap] [debug] Initial NAS message received from UE[4]
+2026-11-18T09:55:31.774014424Z [2026-11-18 09:55:31.773] [ngap] [debug] UE Context Release Command received
+2026-11-18T09:55:31.774023240Z [2026-11-18 09:55:31.773] [rrc] [info] Releasing RRC connection for UE[2]
+2026-11-18T09:55:31.776622114Z [2026-11-18 09:55:31.776] [rrc] [info] RRC Setup for UE[3]
+2026-11-18T09:55:31.777739432Z [2026-11-18 09:55:31.777] [ngap] [debug] Initial NAS message received from UE[3]
+2026-11-18T09:55:31.787100590Z [2026-11-18 09:55:31.786] [ngap] [debug] UE Context Release Command received
+2026-11-18T09:55:31.787116941Z [2026-11-18 09:55:31.787] [rrc] [info] Releasing RRC connection for UE[1]
+2026-11-18T09:55:31.809261654Z [2026-11-18 09:55:31.809] [ngap] [debug] Initial Context Setup Request received
+2026-11-18T09:55:31.816900682Z [2026-11-18 09:55:31.816] [ngap] [debug] Initial Context Setup Request received
+2026-11-18T09:55:31.842618975Z [2026-11-18 09:55:31.842] [ngap] [info] PDU session resource(s) setup for UE[4] count[1]
+2026-11-18T09:55:31.878172030Z [2026-11-18 09:55:31.878] [ngap] [info] PDU session resource(s) setup for UE[3] count[1]
+2026-11-18T09:55:31.910695211Z [2026-11-18 09:55:31.909] [rrc] [info] RRC Setup for UE[2]
+2026-11-18T09:55:31.910714253Z [2026-11-18 09:55:31.910] [ngap] [debug] Initial NAS message received from UE[2]
+2026-11-18T09:55:31.924648473Z [2026-11-18 09:55:31.924] [rrc] [info] RRC Setup for UE[1]
+2026-11-18T09:55:31.925816082Z [2026-11-18 09:55:31.925] [ngap] [debug] Initial NAS message received from UE[1]
+2026-11-18T09:55:32.085771907Z [2026-11-18 09:55:32.085] [ngap] [debug] UE Context Release Command received
+2026-11-18T09:55:32.085800881Z [2026-11-18 09:55:32.085] [rrc] [info] Releasing RRC connection for UE[2]
+2026-11-18T09:55:32.085980532Z [2026-11-18 09:55:32.085] [ngap] [debug] UE Context Release Command received
+2026-11-18T09:55:32.085994817Z [2026-11-18 09:55:32.085] [rrc] [info] Releasing RRC connection for UE[1]
+2026-11-18T09:55:33.637622482Z [2026-11-18 09:55:33.637] [sctp] [debug] SCTP association shutdown (clientId: 2)
+2026-11-18T09:55:33.637652508Z [2026-11-18 09:55:33.637] [sctp] [warning] Unhandled SCTP notification received
+2026-11-18T09:55:33.638377792Z [2026-11-18 09:55:33.638] [ngap] [error] Association terminated for AMF[2]
+2026-11-18T09:55:33.638397152Z [2026-11-18 09:55:33.638] [ngap] [debug] Removing AMF context[2]
+2026-11-18T09:55:34.481945832Z [2026-11-18 09:55:34.481] [rls] [debug] UE[1] signal lost
+2026-11-18T09:55:34.481993311Z [2026-11-18 09:55:34.481] [rls] [debug] UE[2] signal lost

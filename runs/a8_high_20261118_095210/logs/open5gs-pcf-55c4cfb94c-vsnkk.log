@@ -1,0 +1,6 @@
+2026-11-18T09:55:31.806896941Z [32m11/18 09:55:31.806[0m: [[33mpcf[0m] [1;36mWARNING[0m: NF EndPoint(addr) updated [10.42.0.10:7777] (../src/pcf/npcf-handler.c:113)
+2026-11-18T09:55:31.814697690Z [32m11/18 09:55:31.814[0m: [[33mpcf[0m] [1;36mWARNING[0m: NF EndPoint(addr) updated [10.42.0.10:7777] (../src/pcf/npcf-handler.c:113)
+2026-11-18T09:55:31.830550970Z [32m11/18 09:55:31.829[0m: [[33msbi[0m] [1;36mWARNING[0m: [UDR] (SCP-discover) NF has already been added [382d2ef6-e29a-41f1-9b41-b508e725454c:3] (../lib/sbi/path.c:216)
+2026-11-18T09:55:31.833099435Z [32m11/18 09:55:31.833[0m: [[33msbi[0m] [1;36mWARNING[0m: [BSF] (SCP-discover) NF has already been added [3921bf02-e29a-41f1-a76b-5bc003dd52d8:1] (../lib/sbi/path.c:216)
+2026-11-18T09:55:31.864904247Z [32m11/18 09:55:31.864[0m: [[33msbi[0m] [1;36mWARNING[0m: [UDR] (SCP-discover) NF has already been added [382d2ef6-e29a-41f1-9b41-b508e725454c:4] (../lib/sbi/path.c:216)
+2026-11-18T09:55:31.871937690Z [32m11/18 09:55:31.870[0m: [[33msbi[0m] [1;36mWARNING[0m: [BSF] (SCP-discover) NF has already been added [3921bf02-e29a-41f1-a76b-5bc003dd52d8:2] (../lib/sbi/path.c:216)

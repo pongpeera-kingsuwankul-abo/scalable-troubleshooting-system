@@ -1,0 +1,81 @@
+first_seen,last_seen,namespace,type,reason,object,count,message
+2026-11-17T15:18:13Z,2026-11-18T10:03:22Z,open5gs,Warning,FailedGetScale,HorizontalPodAutoscaler/ueransim-gnb,4497,"statefulsets.apps ""ueransim-gnb"" not found"
+2026-11-17T15:19:28Z,2026-11-18T09:59:14Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-ausf,4477,failed to get cpu utilization: missing request for cpu in container open5gs-ausf of Pod open5gs-ausf-79899f74b9-jsxcn
+2026-11-17T15:19:28Z,2026-11-18T09:59:14Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-bsf,4477,failed to get cpu utilization: missing request for cpu in container open5gs-bsf of Pod open5gs-bsf-d54b7668c-5282z
+2026-11-17T15:19:28Z,2026-11-18T09:59:14Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-nrf,4477,failed to get cpu utilization: missing request for cpu in container open5gs-nrf of Pod open5gs-nrf-797bd9bfcf-s9gnm
+2026-11-17T15:19:28Z,2026-11-18T09:59:14Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-scp,4477,failed to get cpu utilization: missing request for cpu in container open5gs-scp of Pod open5gs-scp-5b74569cbb-h9qbv
+2026-11-17T15:19:28Z,2026-11-18T09:59:14Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-udm,4477,failed to get cpu utilization: missing request for cpu in container open5gs-udm of Pod open5gs-udm-7c76dc8667-6x7rn
+2026-11-17T15:19:28Z,2026-11-18T09:59:14Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-udr,4477,failed to get cpu utilization: missing request for cpu in container open5gs-udr of Pod open5gs-udr-64bc5799fb-7d9mj
+2026-11-17T15:19:28Z,2026-11-18T09:59:28Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-nssf,4478,failed to get cpu utilization: missing request for cpu in container open5gs-nssf of Pod open5gs-nssf-74bffb89fc-qwfkc
+2026-11-17T15:19:43Z,2026-11-18T09:59:14Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-pcf,4476,failed to get cpu utilization: missing request for cpu in container open5gs-pcf of Pod open5gs-pcf-55c4cfb94c-vsnkk
+2026-11-17T22:53:39Z,2026-11-18T09:55:31Z,open5gs,Normal,ScalingReplicaSet,Deployment/ueransim-gnb-ues,10,Scaled down replica set ueransim-gnb-ues-5b84cf7db9 from 1 to 0
+2026-11-18T00:01:50Z,2026-11-18T09:59:43Z,open5gs,Warning,FailedComputeMetricsReplicas,HorizontalPodAutoscaler/open5gs-amf,7,"invalid metrics (1 invalid out of 1), first error is: failed to get cpu resource metric value: failed to get cpu utilization: did not receive metrics for targeted pods (pods might be unready)"
+2026-11-18T00:01:50Z,2026-11-18T09:59:43Z,open5gs,Warning,FailedGetResourceMetric,HorizontalPodAutoscaler/open5gs-amf,7,failed to get cpu utilization: did not receive metrics for targeted pods (pods might be unready)
+2026-11-18T01:53:44Z,2026-11-18T09:55:34Z,open5gs,Warning,Unhealthy,Pod/open5gs-amf-68b4c5585c-svs96,15,Readiness probe failed: dial tcp 10.42.0.10:7777: connect: connection refused
+2026-11-18T09:54:30Z,2026-11-18T09:54:30Z,open5gs,Normal,ScalingReplicaSet,Deployment/open5gs-amf,1,Scaled up replica set open5gs-amf-5fdbfb8c4d from 0 to 1
+2026-11-18T09:54:30Z,2026-11-18T09:54:30Z,open5gs,Normal,Scheduled,Pod/open5gs-amf-5fdbfb8c4d-l8ngh,1,Successfully assigned open5gs/open5gs-amf-5fdbfb8c4d-l8ngh to open5gs-poc-tf
+2026-11-18T09:54:30Z,2026-11-18T09:54:30Z,open5gs,Normal,SuccessfulCreate,ReplicaSet/open5gs-amf-5fdbfb8c4d,1,Created pod: open5gs-amf-5fdbfb8c4d-l8ngh
+2026-11-18T09:54:32Z,2026-11-18T09:54:32Z,open5gs,Normal,Created,Pod/open5gs-amf-5fdbfb8c4d-l8ngh,1,Container created
+2026-11-18T09:54:32Z,2026-11-18T09:54:32Z,open5gs,Normal,Pulled,Pod/open5gs-amf-5fdbfb8c4d-l8ngh,1,"Container image ""docker.io/gradiant/open5gs:2.7.0"" already present on machine and can be accessed by the pod"
+2026-11-18T09:54:32Z,2026-11-18T09:54:32Z,open5gs,Normal,Started,Pod/open5gs-amf-5fdbfb8c4d-l8ngh,1,Container started
+2026-11-18T09:55:03Z,2026-11-18T09:55:03Z,open5gs,Normal,Killing,Pod/open5gs-amf-68b4c5585c-svs96,1,Stopping container open5gs-amf
+2026-11-18T09:55:03Z,2026-11-18T09:55:03Z,open5gs,Normal,ScalingReplicaSet,Deployment/open5gs-amf,1,Scaled down replica set open5gs-amf-68b4c5585c from 1 to 0
+2026-11-18T09:55:03Z,2026-11-18T09:55:03Z,open5gs,Normal,SuccessfulDelete,ReplicaSet/open5gs-amf-68b4c5585c,1,Deleted pod: open5gs-amf-68b4c5585c-svs96
+2026-11-18T09:55:04Z,2026-11-18T09:55:04Z,open5gs,Normal,ScalingReplicaSet,Deployment/ueransim-gnb,1,Scaled up replica set ueransim-gnb-75d85df9d8 from 0 to 1
+2026-11-18T09:55:04Z,2026-11-18T09:55:04Z,open5gs,Normal,Scheduled,Pod/ueransim-gnb-75d85df9d8-49d7f,1,Successfully assigned open5gs/ueransim-gnb-75d85df9d8-49d7f to open5gs-poc-tf
+2026-11-18T09:55:04Z,2026-11-18T09:55:04Z,open5gs,Normal,SuccessfulCreate,ReplicaSet/ueransim-gnb-75d85df9d8,1,Created pod: ueransim-gnb-75d85df9d8-49d7f
+2026-11-18T09:55:06Z,2026-11-18T09:55:06Z,open5gs,Normal,Pulling,Pod/ueransim-gnb-75d85df9d8-49d7f,1,"Pulling image ""docker.io/gradiant/ueransim:3.2.6"""
+2026-11-18T09:55:07Z,2026-11-18T09:55:07Z,open5gs,Normal,Created,Pod/ueransim-gnb-75d85df9d8-49d7f,1,Container created
+2026-11-18T09:55:07Z,2026-11-18T09:55:07Z,open5gs,Normal,Killing,Pod/ueransim-gnb-55659fb684-x2dh2,1,Stopping container gnodeb
+2026-11-18T09:55:07Z,2026-11-18T09:55:07Z,open5gs,Normal,Pulled,Pod/ueransim-gnb-75d85df9d8-49d7f,1,"Successfully pulled image ""docker.io/gradiant/ueransim:3.2.6"" in 1.529s (1.529s including waiting). Image size: 95403557 bytes."
+2026-11-18T09:55:07Z,2026-11-18T09:55:07Z,open5gs,Normal,ScalingReplicaSet,Deployment/ueransim-gnb,1,Scaled down replica set ueransim-gnb-55659fb684 from 1 to 0
+2026-11-18T09:55:07Z,2026-11-18T09:55:07Z,open5gs,Normal,Started,Pod/ueransim-gnb-75d85df9d8-49d7f,1,Container started
+2026-11-18T09:55:07Z,2026-11-18T09:55:07Z,open5gs,Normal,SuccessfulDelete,ReplicaSet/ueransim-gnb-55659fb684,1,Deleted pod: ueransim-gnb-55659fb684-x2dh2
+2026-11-18T09:55:28Z,2026-11-18T09:55:28Z,open5gs,Normal,ScalingReplicaSet,Deployment/ueransim-gnb-ues,1,Scaled up replica set ueransim-gnb-ues-d8f644769 from 0 to 1
+2026-11-18T09:55:28Z,2026-11-18T09:55:28Z,open5gs,Normal,Scheduled,Pod/ueransim-gnb-ues-d8f644769-tq4mp,1,Successfully assigned open5gs/ueransim-gnb-ues-d8f644769-tq4mp to open5gs-poc-tf
+2026-11-18T09:55:28Z,2026-11-18T09:55:28Z,open5gs,Normal,SuccessfulCreate,ReplicaSet/ueransim-gnb-ues-d8f644769,1,Created pod: ueransim-gnb-ues-d8f644769-tq4mp
+2026-11-18T09:55:29Z,2026-11-18T09:55:29Z,open5gs,Normal,Pulling,Pod/ueransim-gnb-ues-d8f644769-tq4mp,1,"Pulling image ""docker.io/gradiant/ueransim:3.2.6"""
+2026-11-18T09:55:31Z,2026-11-18T09:55:31Z,open5gs,Normal,Created,Pod/ueransim-gnb-ues-d8f644769-tq4mp,1,Container created
+2026-11-18T09:55:31Z,2026-11-18T09:55:31Z,open5gs,Normal,Killing,Pod/ueransim-gnb-ues-5b84cf7db9-wt75d,1,Stopping container ues
+2026-11-18T09:55:31Z,2026-11-18T09:55:31Z,open5gs,Normal,Pulled,Pod/ueransim-gnb-ues-d8f644769-tq4mp,1,"Successfully pulled image ""docker.io/gradiant/ueransim:3.2.6"" in 1.856s (1.856s including waiting). Image size: 95403557 bytes."
+2026-11-18T09:55:31Z,2026-11-18T09:55:31Z,open5gs,Normal,Started,Pod/ueransim-gnb-ues-d8f644769-tq4mp,1,Container started
+2026-11-18T09:55:31Z,2026-11-18T09:55:31Z,open5gs,Normal,SuccessfulDelete,ReplicaSet/ueransim-gnb-ues-5b84cf7db9,1,Deleted pod: ueransim-gnb-ues-5b84cf7db9-wt75d
+2026-11-18T09:58:48Z,2026-11-18T09:58:48Z,open5gs,Normal,ScalingReplicaSet,Deployment/open5gs-amf,1,Scaled up replica set open5gs-amf-55bd9dcf8c from 0 to 1
+2026-11-18T09:58:48Z,2026-11-18T09:58:48Z,open5gs,Normal,Scheduled,Pod/open5gs-amf-55bd9dcf8c-r7jkc,1,Successfully assigned open5gs/open5gs-amf-55bd9dcf8c-r7jkc to open5gs-poc-tf
+2026-11-18T09:58:48Z,2026-11-18T09:58:48Z,open5gs,Normal,SuccessfulCreate,ReplicaSet/open5gs-amf-55bd9dcf8c,1,Created pod: open5gs-amf-55bd9dcf8c-r7jkc
+2026-11-18T09:58:50Z,2026-11-18T09:58:50Z,open5gs,Normal,Pulled,Pod/open5gs-amf-55bd9dcf8c-r7jkc,1,"Container image ""docker.io/gradiant/open5gs:2.7.0"" already present on machine and can be accessed by the pod"
+2026-11-18T09:58:51Z,2026-11-18T09:58:51Z,open5gs,Normal,Created,Pod/open5gs-amf-55bd9dcf8c-r7jkc,1,Container created
+2026-11-18T09:58:51Z,2026-11-18T09:58:51Z,open5gs,Normal,Started,Pod/open5gs-amf-55bd9dcf8c-r7jkc,1,Container started
+2026-11-18T09:59:22Z,2026-11-18T09:59:22Z,open5gs,Normal,Killing,Pod/open5gs-amf-5fdbfb8c4d-l8ngh,1,Stopping container open5gs-amf
+2026-11-18T09:59:22Z,2026-11-18T09:59:22Z,open5gs,Normal,ScalingReplicaSet,Deployment/open5gs-amf,1,Scaled down replica set open5gs-amf-5fdbfb8c4d from 1 to 0
+2026-11-18T09:59:22Z,2026-11-18T09:59:22Z,open5gs,Normal,SuccessfulDelete,ReplicaSet/open5gs-amf-5fdbfb8c4d,1,Deleted pod: open5gs-amf-5fdbfb8c4d-l8ngh
+2026-11-18T09:59:23Z,2026-11-18T09:59:23Z,open5gs,Normal,ScalingReplicaSet,Deployment/ueransim-gnb,1,Scaled up replica set ueransim-gnb-67d5bd84c7 from 0 to 1
+2026-11-18T09:59:23Z,2026-11-18T09:59:23Z,open5gs,Normal,Scheduled,Pod/ueransim-gnb-67d5bd84c7-vmb6j,1,Successfully assigned open5gs/ueransim-gnb-67d5bd84c7-vmb6j to open5gs-poc-tf
+2026-11-18T09:59:23Z,2026-11-18T09:59:23Z,open5gs,Normal,SuccessfulCreate,ReplicaSet/ueransim-gnb-67d5bd84c7,1,Created pod: ueransim-gnb-67d5bd84c7-vmb6j
+2026-11-18T09:59:24Z,2026-11-18T09:59:24Z,open5gs,Normal,Pulling,Pod/ueransim-gnb-67d5bd84c7-vmb6j,1,"Pulling image ""docker.io/gradiant/ueransim:3.2.6"""
+2026-11-18T09:59:26Z,2026-11-18T09:59:26Z,open5gs,Normal,Pulled,Pod/ueransim-gnb-67d5bd84c7-vmb6j,1,"Successfully pulled image ""docker.io/gradiant/ueransim:3.2.6"" in 1.424s (1.424s including waiting). Image size: 95403557 bytes."
+2026-11-18T09:59:27Z,2026-11-18T09:59:27Z,open5gs,Normal,Created,Pod/ueransim-gnb-67d5bd84c7-vmb6j,1,Container created
+2026-11-18T09:59:27Z,2026-11-18T09:59:27Z,open5gs,Normal,Killing,Pod/ueransim-gnb-75d85df9d8-49d7f,1,Stopping container gnodeb
+2026-11-18T09:59:27Z,2026-11-18T09:59:27Z,open5gs,Normal,ScalingReplicaSet,Deployment/ueransim-gnb,1,Scaled down replica set ueransim-gnb-75d85df9d8 from 1 to 0
+2026-11-18T09:59:27Z,2026-11-18T09:59:27Z,open5gs,Normal,Started,Pod/ueransim-gnb-67d5bd84c7-vmb6j,1,Container started
+2026-11-18T09:59:27Z,2026-11-18T09:59:27Z,open5gs,Normal,SuccessfulDelete,ReplicaSet/ueransim-gnb-75d85df9d8,1,Deleted pod: ueransim-gnb-75d85df9d8-49d7f
+2026-11-18T09:59:47Z,2026-11-18T09:59:47Z,open5gs,Normal,ScalingReplicaSet,Deployment/ueransim-gnb-ues,1,Scaled up replica set ueransim-gnb-ues-6cd456b7b4 from 0 to 1
+2026-11-18T09:59:47Z,2026-11-18T09:59:47Z,open5gs,Normal,Scheduled,Pod/ueransim-gnb-ues-6cd456b7b4-4d777,1,Successfully assigned open5gs/ueransim-gnb-ues-6cd456b7b4-4d777 to open5gs-poc-tf
+2026-11-18T09:59:47Z,2026-11-18T09:59:47Z,open5gs,Normal,SuccessfulCreate,ReplicaSet/ueransim-gnb-ues-6cd456b7b4,1,Created pod: ueransim-gnb-ues-6cd456b7b4-4d777
+2026-11-18T09:59:48Z,2026-11-18T09:59:48Z,open5gs,Normal,Pulling,Pod/ueransim-gnb-ues-6cd456b7b4-4d777,1,"Pulling image ""docker.io/gradiant/ueransim:3.2.6"""
+2026-11-18T09:59:50Z,2026-11-18T09:59:50Z,open5gs,Normal,Pulled,Pod/ueransim-gnb-ues-6cd456b7b4-4d777,1,"Successfully pulled image ""docker.io/gradiant/ueransim:3.2.6"" in 1.694s (1.694s including waiting). Image size: 95403557 bytes."
+2026-11-18T09:59:51Z,2026-11-18T09:59:51Z,open5gs,Normal,Created,Pod/ueransim-gnb-ues-6cd456b7b4-4d777,1,Container created
+2026-11-18T09:59:51Z,2026-11-18T09:59:51Z,open5gs,Normal,Killing,Pod/ueransim-gnb-ues-d8f644769-tq4mp,1,Stopping container ues
+2026-11-18T09:59:51Z,2026-11-18T09:59:51Z,open5gs,Normal,ScalingReplicaSet,Deployment/ueransim-gnb-ues,1,Scaled down replica set ueransim-gnb-ues-d8f644769 from 1 to 0
+2026-11-18T09:59:51Z,2026-11-18T09:59:51Z,open5gs,Normal,Started,Pod/ueransim-gnb-ues-6cd456b7b4-4d777,1,Container started
+2026-11-18T09:59:51Z,2026-11-18T09:59:51Z,open5gs,Normal,SuccessfulDelete,ReplicaSet/ueransim-gnb-ues-d8f644769,1,Deleted pod: ueransim-gnb-ues-d8f644769-tq4mp
+2026-11-18T10:00:54Z,2026-11-18T10:00:54Z,open5gs,Normal,ScalingReplicaSet,Deployment/ueransim-gnb-ues,1,Scaled up replica set ueransim-gnb-ues-5765d47d64 from 0 to 1
+2026-11-18T10:00:54Z,2026-11-18T10:00:54Z,open5gs,Normal,Scheduled,Pod/ueransim-gnb-ues-5765d47d64-h27x8,1,Successfully assigned open5gs/ueransim-gnb-ues-5765d47d64-h27x8 to open5gs-poc-tf
+2026-11-18T10:00:54Z,2026-11-18T10:00:54Z,open5gs,Normal,SuccessfulCreate,ReplicaSet/ueransim-gnb-ues-5765d47d64,1,Created pod: ueransim-gnb-ues-5765d47d64-h27x8
+2026-11-18T10:00:55Z,2026-11-18T10:00:55Z,open5gs,Normal,Pulling,Pod/ueransim-gnb-ues-5765d47d64-h27x8,1,"Pulling image ""docker.io/gradiant/ueransim:3.2.6"""
+2026-11-18T10:00:57Z,2026-11-18T10:00:57Z,open5gs,Normal,Pulled,Pod/ueransim-gnb-ues-5765d47d64-h27x8,1,"Successfully pulled image ""docker.io/gradiant/ueransim:3.2.6"" in 2.309s (2.309s including waiting). Image size: 95403557 bytes."
+2026-11-18T10:00:58Z,2026-11-18T10:00:58Z,open5gs,Normal,Created,Pod/ueransim-gnb-ues-5765d47d64-h27x8,1,Container created
+2026-11-18T10:00:58Z,2026-11-18T10:00:58Z,open5gs,Normal,Killing,Pod/ueransim-gnb-ues-6cd456b7b4-4d777,1,Stopping container ues
+2026-11-18T10:00:58Z,2026-11-18T10:00:58Z,open5gs,Normal,ScalingReplicaSet,Deployment/ueransim-gnb-ues,1,Scaled down replica set ueransim-gnb-ues-6cd456b7b4 from 1 to 0
+2026-11-18T10:00:58Z,2026-11-18T10:00:58Z,open5gs,Normal,Started,Pod/ueransim-gnb-ues-5765d47d64-h27x8,1,Container started
+2026-11-18T10:00:58Z,2026-11-18T10:00:58Z,open5gs,Normal,SuccessfulDelete,ReplicaSet/ueransim-gnb-ues-6cd456b7b4,1,Deleted pod: ueransim-gnb-ues-6cd456b7b4-4d777

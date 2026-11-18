@@ -1,0 +1,22 @@
+# A8 HIGH - Wrong slice (SST 4) in the AMF config. The gNB may connect, but the UEs ask for slice 1, which is no longer offered.
+# Run on the VM:  python3 run.py run experiments/a8-amf-misconfig-high.yaml
+# Preview only:   python3 run.py plan experiments/a8-amf-misconfig-high.yaml
+id: A8
+name: amf-misconfig
+severity: high
+description: |
+  Wrong slice (SST 4) in the AMF config. The gNB may connect, but the UEs ask for slice 1, which is no longer offered.
+  Steps: back up the AMF ConfigMap, edit it, restart the AMF, restart gNB -> UEs so they try against the bad config,
+  hold 3 min, then restore the backup + restart AMF + gNB -> UEs (labelled remediation). Aborts before any change if the edit matches nothing.
+inject:
+  method: configmap
+  configmap_match: amf        # the ConfigMap whose name contains this
+  hold_s: 180
+  restart_ran: true
+  edits:                      # Python regex on each line of the AMF config file
+    - find: '^(\s*-?\s*sst:\s*)\d+'
+      replace: '\g<1>4'
+validate:      # the run only counts as VALID if every required check passes
+  - any_of:   # 15 Nov: depending on the value, either the gNB or the UEs get refused
+      - {column: gnb.amf, expect: stays_low}
+      - {column: ping_ok.ue0, expect: stays_low}

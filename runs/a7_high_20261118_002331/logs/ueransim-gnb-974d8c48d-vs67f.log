@@ -1,0 +1,4 @@
+2026-11-18T00:25:37.457201971Z [2026-11-18 00:25:37.457] [sctp] [debug] SCTP association shutdown (clientId: 2)
+2026-11-18T00:25:37.457268129Z [2026-11-18 00:25:37.457] [sctp] [warning] Unhandled SCTP notification received
+2026-11-18T00:25:37.457274735Z [2026-11-18 00:25:37.457] [ngap] [error] Association terminated for AMF[2]
+2026-11-18T00:25:37.457279130Z [2026-11-18 00:25:37.457] [ngap] [debug] Removing AMF context[2]

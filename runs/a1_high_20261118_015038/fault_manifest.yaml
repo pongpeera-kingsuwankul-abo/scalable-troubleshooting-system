@@ -1,0 +1,14 @@
+apiVersion: chaos-mesh.org/v1alpha1
+kind: PodChaos
+metadata:
+  name: a1-amf-crash-high
+  namespace: open5gs
+spec:
+  action: pod-failure
+  mode: one
+  duration: "120s"
+  selector:
+    namespaces:
+      - open5gs
+    labelSelectors:
+      app.kubernetes.io/name: amf

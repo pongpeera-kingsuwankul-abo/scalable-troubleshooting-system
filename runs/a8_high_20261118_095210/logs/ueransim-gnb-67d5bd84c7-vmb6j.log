@@ -1,0 +1,22 @@
+2026-11-18T09:59:27.244920927Z N2_BIND_IP: 10.42.0.25
+2026-11-18T09:59:27.244959435Z N3_BIND_IP: 10.42.0.25
+2026-11-18T09:59:27.244964390Z N3_ADVERTISE_IP: 10.42.0.25
+2026-11-18T09:59:27.244968795Z RADIO_BIND_IP: 10.42.0.25
+2026-11-18T09:59:27.244972418Z AMF_IP: 10.43.89.64
+2026-11-18T09:59:27.244976450Z Launching gnb: nr-gnb -c gnb.yaml
+2026-11-18T09:59:27.250548826Z UERANSIM v3.2.6
+2026-11-18T09:59:27.252880446Z [2026-11-18 09:59:27.251] [sctp] [info] Trying to establish SCTP connection... (10.43.89.64:38412)
+2026-11-18T09:59:27.253184560Z [2026-11-18 09:59:27.253] [sctp] [info] SCTP connection established (10.43.89.64:38412)
+2026-11-18T09:59:27.253743885Z [2026-11-18 09:59:27.253] [sctp] [debug] SCTP association setup ascId[23]
+2026-11-18T09:59:27.253812695Z [2026-11-18 09:59:27.253] [ngap] [debug] Sending NG Setup Request
+2026-11-18T09:59:27.266919020Z [2026-11-18 09:59:27.266] [ngap] [error] NG Setup procedure is failed. Cause: radio-network/slice-not-supported
+2026-11-18T09:59:51.376322422Z [2026-11-18 09:59:51.376] [rrc] [debug] UE[1] new signal detected
+2026-11-18T09:59:51.376331286Z [2026-11-18 09:59:51.376] [rrc] [debug] UE[2] new signal detected
+2026-11-18T09:59:52.850403302Z [2026-11-18 09:59:52.850] [sctp] [debug] SCTP association shutdown (clientId: 2)
+2026-11-18T09:59:52.850422774Z [2026-11-18 09:59:52.850] [sctp] [warning] Unhandled SCTP notification received
+2026-11-18T09:59:52.850426059Z [2026-11-18 09:59:52.850] [ngap] [error] Association terminated for AMF[2]
+2026-11-18T09:59:52.850428770Z [2026-11-18 09:59:52.850] [ngap] [debug] Removing AMF context[2]
+2026-11-18T10:00:58.538669238Z [2026-11-18 10:00:58.538] [rrc] [debug] UE[3] new signal detected
+2026-11-18T10:00:58.538795902Z [2026-11-18 10:00:58.538] [rrc] [debug] UE[4] new signal detected
+2026-11-18T10:01:05.549141828Z [2026-11-18 10:01:05.548] [rls] [debug] UE[1] signal lost
+2026-11-18T10:01:05.549221350Z [2026-11-18 10:01:05.548] [rls] [debug] UE[2] signal lost
