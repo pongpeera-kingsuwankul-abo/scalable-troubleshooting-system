@@ -1,0 +1,22 @@
+# S5 — SMF CPU stress
+# Applies CPU pressure to the SMF for 120 seconds.
+
+apiVersion: chaos-mesh.org/v1alpha1
+kind: StressChaos
+
+metadata:
+  name: s5-smf-cpu-stress
+  namespace: open5gs
+
+spec:
+  mode: all
+  selector:
+    namespaces:
+      - open5gs
+    labelSelectors:
+      app.kubernetes.io/name: smf
+  stressors:
+    cpu:
+      workers: 1
+      load: 80
+  duration: "120s"

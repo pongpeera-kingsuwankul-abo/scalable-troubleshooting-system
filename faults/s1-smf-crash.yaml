@@ -1,0 +1,20 @@
+
+# S1 - SMF crash (pod-kill)
+# Target: SMF only
+# Purpose: Observe SMF availability, session behavior and recovery.
+
+apiVersion: chaos-mesh.org/v1alpha1
+kind: PodChaos
+metadata:
+  name: s1-smf-crash
+  namespace: open5gs
+spec:
+  action: pod-kill
+  mode: all
+  selector:
+    namespaces:
+      - open5gs
+    labelSelectors:
+      app.kubernetes.io/name: smf
+  gracePeriod: 0
+

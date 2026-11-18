@@ -1,0 +1,24 @@
+apiVersion: chaos-mesh.org/v1alpha1
+kind: NetworkChaos
+metadata:
+  name: s3-smf-upf-loss
+  namespace: open5gs
+spec:
+  action: loss
+  mode: all
+  selector:
+    namespaces:
+      - open5gs
+    labelSelectors:
+      app.kubernetes.io/name: smf
+  target:
+    mode: all
+    selector:
+      namespaces:
+        - open5gs
+      labelSelectors:
+        app.kubernetes.io/name: upf
+  loss:
+    loss: "100"
+    correlation: "0"
+  duration: "120s"

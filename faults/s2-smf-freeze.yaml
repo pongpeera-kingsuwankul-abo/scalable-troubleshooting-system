@@ -1,0 +1,17 @@
+experiment:
+  id: S2
+  name: SMF Freeze
+  severity: low
+  mechanism: containerd-task-pause-resume
+  namespace: open5gs
+  target:
+    deployment: open5gs-smf
+    container: open5gs-smf
+  duration: 30s
+  recovery: containerd-task-resume
+  status: completed
+  notes:
+    - Pause the existing SMF containerd task.
+    - Keep the Kubernetes pod and container intact.
+    - Resume the same containerd task after 30 seconds.
+    - Do not delete or restart the SMF pod.

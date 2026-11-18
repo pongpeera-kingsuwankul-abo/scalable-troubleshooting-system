@@ -1,0 +1,25 @@
+apiVersion: chaos-mesh.org/v1alpha1
+kind: NetworkChaos
+metadata:
+  name: s4-smf-upf-delay
+  namespace: open5gs
+spec:
+  action: delay
+  mode: all
+  selector:
+    namespaces:
+      - open5gs
+    labelSelectors:
+      app.kubernetes.io/name: smf
+  target:
+    mode: all
+    selector:
+      namespaces:
+        - open5gs
+      labelSelectors:
+        app.kubernetes.io/name: upf
+  delay:
+    latency: "200ms"
+    jitter: "20ms"
+    correlation: "0"
+  duration: "120s"
